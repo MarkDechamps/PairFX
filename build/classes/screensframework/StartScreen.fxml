@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" fx:id="StartScreen" prefHeight="640.0" prefWidth="1025.0" visible="true" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="screensframework.StartScreenController">
+  <children>
+    <ImageView id="3D-Chess-Board-Black-and-White-39.jpg" fitHeight="768.0" fitWidth="1024.0" layoutX="1.0" layoutY="0.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true">
+      <image>
+        <Image url="@../img/3D-Chess-Board-Black-and-White-39.jpg" preserveRatio="true" smooth="true" />
+      </image>
+    </ImageView>
+    <Button id="button" fx:id="nieuw" layoutX="366.0" layoutY="97.0" onAction="#handleNieuwToernooiAction" prefHeight="68.0" prefWidth="293.0" text="%startscreen.maakNieuwToernooi" />
+    <Label fx:id="label" layoutX="126.0" layoutY="120.0" minHeight="16.0" minWidth="69.0" />
+    <ScrollPane layoutX="366.0" layoutY="217.0" prefHeight="298.0" prefWidth="293.0">
+      <content>
+        <AnchorPane id="Content" minHeight="0.0" minWidth="0.0" prefHeight="273.0" prefWidth="292.0">
+          <children>
+            <ListView fx:id="files" onMouseClicked="#clicked" prefHeight="273.0" prefWidth="292.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+          </children>
+        </AnchorPane>
+      </content>
+    </ScrollPane>
+    <Label alignment="CENTER" layoutX="366.0" layoutY="193.0" prefHeight="32.0" prefWidth="292.0" text="%startscreen.toernooiOpenen" textFill="BLACK" />
+    <Label layoutX="14.0" layoutY="14.0" prefWidth="366.0" text="PairFX" textFill="radial-gradient(focus-angle 0.0deg, focus-distance 0.0% , center 100.0px 100.0px, radius 400.0px, 0xff0000ff 0.0%, 0x0000ffff 35.0%, 0x000000ff 100.0%)">
+      <font>
+        <Font size="24.0" />
+      </font>
+    </Label>
+    <Label layoutX="14.0" layoutY="610.0" prefWidth="147.0" text="Mark Dechamps 2013" textFill="#bfbfbf" />
+    <HBox id="HBox" alignment="CENTER" layoutX="881.0" layoutY="30.0" prefWidth="111.0" spacing="5.0">
+      <children>
+        <Button fx:id="administrator" mnemonicParsing="false" onAction="#admin" text="%startscreen.administrator" />
+      </children>
+    </HBox>
+    <Label layoutX="900.0" layoutY="619.0" prefWidth="93.0" text="Freeware!" textFill="#5200ff" />
+  </children>
+</AnchorPane>

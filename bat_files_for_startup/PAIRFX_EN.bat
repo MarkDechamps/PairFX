@@ -1,0 +1,1 @@
+java -Dlocale=en -jar PairFX.jar 

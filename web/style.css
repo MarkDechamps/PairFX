@@ -1,0 +1,22 @@
+td{
+ min-width:80px;
+}
+th{
+ min-width:80px;
+}
+table, th
+{
+border: 1px solid black;
+}
+table {
+    border-collapse: collapse;
+}
+
+.gray{
+background-color:gray;
+}
+td
+{
+text-align:center;
+border: 1px solid black;
+}

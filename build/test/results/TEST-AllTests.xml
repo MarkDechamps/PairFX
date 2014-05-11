@@ -1,0 +1,2990 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="mim-HP" name="AllTests" tests="24" time="2.034" timestamp="2014-04-12T15:40:11">
+  <properties>
+    <property name="netbeans.autoupdate.country" value="US" />
+    <property name="javafx.binarycss" value="false" />
+    <property name="javafx.signing.enabled" value="false" />
+    <property name="javac.test.classpath" value="C:\Program Files\Java\jdk1.7.0_13\jre/lib/jfxrt.jar:C:\Program Files\Java\jdk1.7.0_13\jre/lib/deploy.jar:C:\Program Files\Java\jdk1.7.0_13\jre/lib/javaws.jar:C:\Program Files\Java\jdk1.7.0_13\jre/lib/plugin.jar:javafx-dialogs-0.0.3.jar:D:\mark\Dropbox\kordev_repo\kordev\simple-xml-2.7.1\jar\simple-xml-2.7.1.jar:D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\poi-3.9-20121203.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\poi-ooxml-3.9-20121203.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\xmlbeans-2.3.0.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\poi-ooxml-schemas-3.9-20121203.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\stax-api-1.0.1.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\dom4j-1.6.1.jar:../PairFXLib/dist/PairFXLib.jar:build/classes:C:\Program Files\NetBeans 7.2.1\platform\modules\ext\junit-4.10.jar" />
+    <property name="javafx.runtime" value="C:\Program Files\Java\jdk1.7.0_13\jre" />
+    <property name="libs.junit.javadoc" value="C:\Program Files\NetBeans 7.2.1\java\docs\junit-3.8.2-api.zip" />
+    <property name="libs.web.src" value="D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\src" />
+    <property name="javac.includes" value="AllTests.java" />
+    <property name="ant.core.lib" value="C:\Program Files\NetBeans 7.2.1\java\ant\lib\ant.jar" />
+    <property name="javadoc.windowtitle" value="" />
+    <property name="javafx.preloader.enabled" value="false" />
+    <property name="user.dir" value="D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2" />
+    <property name="libs.hibernate-persistence.javadoc" value="" />
+    <property name="java.vm.version" value="22.1-b02" />
+    <property name="libs.MySQLDriver.classpath" value="C:\Program Files\NetBeans 7.2.1\ide\modules\ext\mysql-connector-java-5.1.18-bin.jar" />
+    <property name="libs.eclipselinkmodelgen.src" value="" />
+    <property name="javadoc.notree" value="false" />
+    <property name="netbeans.autoupdate.version" value="1.23" />
+    <property name="javafx.run.as" value="standalone" />
+    <property name="libs.hibernate-support.maven-pom" value="" />
+    <property name="libs.hibernate-support.javadoc" value="" />
+    <property name="jdk.home" value="C:\Program Files\Java\jdk1.7.0_03" />
+    <property name="javafx.deploy.addstartmenushortcut" value="false" />
+    <property name="libs.javac-api.src" value="" />
+    <property name="javafx.enabled" value="true" />
+    <property name="javadoc.noindex" value="false" />
+    <property name="sun.os.patch.level" value="Service Pack 1" />
+    <property name="auxiliary.org-netbeans-modules-projectapi.issue214819_5f_fx_5f_enabled" value="true" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="nb.show.statistics.ui" value="usageStatisticsEnabled" />
+    <property name="libs.web.maven-pom" value="" />
+    <property name="netbeans.autoupdate.variant" value="" />
+    <property name="have.tests" value="true" />
+    <property name="org.xml.sax.driver" value="com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser" />
+    <property name="libs.Jetty.classpath" value="D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\jetty-all-server-8.1.11.v20130520.jar" />
+    <property name="javafx.signing.keyalias" value="" />
+    <property name="libs.javac-api.javadoc" value="" />
+    <property name="os.name" value="Windows 7" />
+    <property name="libs.beans-binding.classpath" value="C:\Program Files\NetBeans 7.2.1\java\modules\ext\beansbinding-1.2.1.jar" />
+    <property name="ap.proc.none.internal" value="" />
+    <property name="libs.JWSAntTasks.maven-pom" value="" />
+    <property name="jnlp.signing.keystore" value="" />
+    <property name="libs.testng.src" value="" />
+    <property name="javafx.preloader.project.path" value="" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="javafx.preloader.type" value="none" />
+    <property name="libs.jaxb.maven-pom" value="" />
+    <property name="os.arch" value="amd64" />
+    <property name="libs.eclipselink.src" value="" />
+    <property name="user.name" value="mim" />
+    <property name="copylibs.rebase" value="true" />
+    <property name="manifest.available+main.class" value="true" />
+    <property name="libs.swing-layout.maven-pom" value="" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner AllTests filtertrace=true haltOnError=false haltOnFailure=false showoutput=true outputtoformatters=true logfailedtests=true logtestlistenerevents=true formatter=org.apache.tools.ant.taskdefs.optional.junit.BriefJUnitResultFormatter formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\build\test\results\TEST-AllTests.xml crashfile=D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\build\junitvmwatcher8210227661868137725.properties propsfile=D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\build\junit40075824058406784.properties" />
+    <property name="build.classes.dir" value="build/classes" />
+    <property name="platforms.Default_JavaFX_Platform.home" value="C:\Program Files\Java\jdk1.7.0_03" />
+    <property name="netbeans.accept_license_class" value="org.netbeans.license.AcceptLicense" />
+    <property name="jnlp.descriptor" value="application" />
+    <property name="build.sysclasspath" value="ignore" />
+    <property name="ap.supported.internal" value="true" />
+    <property name="libs.jaxws21.javadoc" value="C:\Program Files\NetBeans 7.2.1\java\docs\jaxws-api-doc.zip" />
+    <property name="javafx.run.width" value="800" />
+    <property name="includes" value="**" />
+    <property name="user.country" value="US" />
+    <property name="manifest.file" value="manifest.mf" />
+    <property name="javadoc.encoding" value="UTF-8" />
+    <property name="platform.home" value="C:\Program Files\Java\jdk1.7.0_03" />
+    <property name="javac.classpath" value="C:\Program Files\Java\jdk1.7.0_13\jre/lib/jfxrt.jar:C:\Program Files\Java\jdk1.7.0_13\jre/lib/deploy.jar:C:\Program Files\Java\jdk1.7.0_13\jre/lib/javaws.jar:C:\Program Files\Java\jdk1.7.0_13\jre/lib/plugin.jar:javafx-dialogs-0.0.3.jar:D:\mark\Dropbox\kordev_repo\kordev\simple-xml-2.7.1\jar\simple-xml-2.7.1.jar:D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\poi-3.9-20121203.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\poi-ooxml-3.9-20121203.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\xmlbeans-2.3.0.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\poi-ooxml-schemas-3.9-20121203.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\stax-api-1.0.1.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\dom4j-1.6.1.jar:../PairFXLib/dist/PairFXLib.jar" />
+    <property name="libs.JAVADB_DRIVER_LABEL.src" value="" />
+    <property name="platforms.Default_JavaFX_Platform.javafx.javadoc" value="http://docs.oracle.com/javafx/2/api/" />
+    <property name="platform.bootcp" value="C:\Program Files\Java\jdk1.7.0_03\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_03\jre\classes;C:\Program Files\Java\jdk1.7.0_03\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\ext\zipfs.jar" />
+    <property name="debug-transport" value="dt_shmem" />
+    <property name="netbeans.home" value="C:\Program Files\NetBeans 7.2.1\platform" />
+    <property name="build.compiler.emacs" value="true" />
+    <property name="application.desc" value="PairFX is een programma om niet ronde gebaseerde paringen te maken voor schakers" />
+    <property name="libs.ejb3-persistence.src" value="" />
+    <property name="libs.Apache POI.src" value="" />
+    <property name="javafx.deploy.includeDT" value="true" />
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.7.0_03\jre\lib\endorsed" />
+    <property name="user.language.format" value="nl" />
+    <property name="libs.groovy-all.src" value="" />
+    <property name="test.includes" value="AllTests.java" />
+    <property name="netbeans.dynamic.classpath" value="C:\Program Files\NetBeans 7.2.1\platform\core\core.jar;C:\Program Files\NetBeans 7.2.1\platform\core\org-openide-filesystems.jar;C:\Program Files\NetBeans 7.2.1\platform\core\locale\core_ja.jar;C:\Program Files\NetBeans 7.2.1\platform\core\locale\core_pt_BR.jar;C:\Program Files\NetBeans 7.2.1\platform\core\locale\core_ru.jar;C:\Program Files\NetBeans 7.2.1\platform\core\locale\core_zh_CN.jar;C:\Program Files\NetBeans 7.2.1\platform\core\locale\org-openide-filesystems_ja.jar;C:\Program Files\NetBeans 7.2.1\platform\core\locale\org-openide-filesystems_pt_BR.jar;C:\Program Files\NetBeans 7.2.1\platform\core\locale\org-openide-filesystems_ru.jar;C:\Program Files\NetBeans 7.2.1\platform\core\locale\org-openide-filesystems_zh_CN.jar;C:\Program Files\NetBeans 7.2.1\nb\core\org-netbeans-upgrader.jar;C:\Program Files\NetBeans 7.2.1\nb\core\locale\core_nb.jar;C:\Program Files\NetBeans 7.2.1\nb\core\locale\core_nb_ja.jar;C:\Program Files\NetBeans 7.2.1\nb\core\locale\core_nb_pt_BR.jar;C:\Program Files\NetBeans 7.2.1\nb\core\locale\core_nb_ru.jar;C:\Program Files\NetBeans 7.2.1\nb\core\locale\core_nb_zh_CN.jar;C:\Program Files\NetBeans 7.2.1\nb\core\locale\org-netbeans-upgrader_ja.jar;C:\Program Files\NetBeans 7.2.1\nb\core\locale\org-netbeans-upgrader_pt_BR.jar;C:\Program Files\NetBeans 7.2.1\nb\core\locale\org-netbeans-upgrader_ru.jar;C:\Program Files\NetBeans 7.2.1\nb\core\locale\org-netbeans-upgrader_zh_CN.jar" />
+    <property name="libs.Apache POI.javadoc" value="" />
+    <property name="jnlp.enabled" value="false" />
+    <property name="java.vm.specification.version" value="1.7" />
+    <property name="libs.groovy-all.maven-pom" value="" />
+    <property name="javafx.deploy.icon" value="file:/D:/mark/Dropbox/kordev_repo/kordev/SchoolPairingFX2/src/img/icon_32x32.png" />
+    <property name="netbeans.productversion" value="NetBeans IDE 7.2.1 (Build 201210100934)" />
+    <property name="libs.hibernate-persistence.classpath" value="C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\antlr-2.7.6.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\asm.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\asm-attrs.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\cglib-2.1.3.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\commons-collections-2.1.1.jar;C:\Program Files\NetBeans 7.2.1\ide\modules\org-apache-commons-logging.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\dom4j-1.6.1.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\ehcache-1.2.3.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\jdbc2_0-stdext.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\jta.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\hibernate3.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\hibernate-tools.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\hibernate-annotations.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\hibernate-commons-annotations.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\hibernate-entitymanager.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\javassist.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\ejb3-persistence.jar" />
+    <property name="javafx.preloader.class" value="" />
+    <property name="libs.jaxws21.src" value="" />
+    <property name="application.title" value="PairFX" />
+    <property name="netbeans.autoupdate.language" value="en" />
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="reference.PairFXLib.jar" value="../PairFXLib/dist/PairFXLib.jar" />
+    <property name="jar.index.metainf" value="false" />
+    <property name="javac.debug" value="true" />
+    <property name="javadoc.splitindex" value="true" />
+    <property name="file.separator" value="\" />
+    <property name="javac.includesfile.binary" value="D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\null882165016" />
+    <property name="libs.Hazelcast.classpath" value="D:\mark\Dropbox\kordev_repo\kordev\hazelcast-3.1.3\lib\hazelcast-all-3.1.3.jar" />
+    <property name="libs.junit_4.maven-pom" value="" />
+    <property name="mkdist.disabled" value="true" />
+    <property name="javac.test.processorpath" value="C:\Program Files\Java\jdk1.7.0_13\jre/lib/jfxrt.jar:C:\Program Files\Java\jdk1.7.0_13\jre/lib/deploy.jar:C:\Program Files\Java\jdk1.7.0_13\jre/lib/javaws.jar:C:\Program Files\Java\jdk1.7.0_13\jre/lib/plugin.jar:javafx-dialogs-0.0.3.jar:D:\mark\Dropbox\kordev_repo\kordev\simple-xml-2.7.1\jar\simple-xml-2.7.1.jar:D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\poi-3.9-20121203.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\poi-ooxml-3.9-20121203.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\xmlbeans-2.3.0.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\poi-ooxml-schemas-3.9-20121203.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\stax-api-1.0.1.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\dom4j-1.6.1.jar:../PairFXLib/dist/PairFXLib.jar:build/classes:C:\Program Files\NetBeans 7.2.1\platform\modules\ext\junit-4.10.jar" />
+    <property name="libs.tiwulfx.javadoc" value="" />
+    <property name="netbeans.buildnumber" value="201210100934" />
+    <property name="libs.JWSAntTasks.javadoc" value="" />
+    <property name="build.generated.sources.dir" value="build/generated-sources" />
+    <property name="user.variant" value="" />
+    <property name="libs.eclipselinkmodelgen.classpath" value="C:\Program Files\NetBeans 7.2.1\java\modules\ext\eclipselink\org.eclipse.persistence.jpa.modelgen.processor-2.3.2.jar" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="libs.junit.classpath" value="C:\Program Files\NetBeans 7.2.1\java\modules\ext\junit-3.8.2.jar" />
+    <property name="libs.jaxb.javadoc" value="C:\Program Files\NetBeans 7.2.1\ide\docs\jaxb-api-doc.zip" />
+    <property name="javac.includes.binary" value="D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\build\test\classes\AllTests.class" />
+    <property name="ant.home" value="C:\Program Files\NetBeans 7.2.1\java\ant" />
+    <property name="libs.junit_4.src" value="C:\Program Files\NetBeans 7.2.1\java\docs\junit-4.10-sources.jar" />
+    <property name="javafx.run.height" value="600" />
+    <property name="libs.testng.classpath" value="C:\Program Files\NetBeans 7.2.1\platform\modules\ext\testng-6.5.1-dist.jar" />
+    <property name="libs.absolutelayout.maven-pom" value="" />
+    <property name="ant.java.version" value="1.7" />
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.7.0_03\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\HP SimplePass 2012\;C:\Program Files (x86)\AMD APP\bin\x86_64;C:\Program Files (x86)\AMD APP\bin\x86;C:\Program Files\Common Files\Microsoft Shared\Windows Live;C:\Program Files (x86)\Common Files\Microsoft Shared\Windows Live;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\Windows Live\Shared;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files (x86)\Intel\Services\IPT\;C:\Program Files (x86)\Calibre2\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\Belgium Identity Card;C:\Program Files\nodejs\;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Program Files (x86)\FreeArc\bin;D:\mark\mongo\mongodb-win32-x86_64-2008plus-2.4.3\bin;D:\mark\mongo\apache-maven-3.0.5\bin;D:\mark\Python27\;D:\mark\tmp\hans\gradle-1.8-all\gradle-1.8\bin;C:\Users\mim\AppData\Roaming\npm;D:\mark\java\grails-2.3.3\bin;D:\mark\java\springboot\spring-0.5.0.M6\bin;C:\Program Files\Java\jre7\bin;." />
+    <property name="javadoc.author" value="false" />
+    <property name="manifest.available+main.class-mkdist.available" value="true" />
+    <property name="java.util.logging.config.class" value="org.netbeans.core.startup.TopLogging" />
+    <property name="libs.PostgreSQLDriver.src" value="" />
+    <property name="libs.tiwulfx.classpath" value="D:\mark\Dropbox\kordev_repo\kordev\tiwulfx_v1.1_final\tiwulfx_v1.1_final\tiwulfx.jar;D:\mark\Dropbox\kordev_repo\kordev\tiwulfx_v1.1_final\tiwulfx_v1.1_final\lib\commons-beanutils-core-1.8.3.jar;D:\mark\Dropbox\kordev_repo\kordev\tiwulfx_v1.1_final\tiwulfx_v1.1_final\lib\commons-logging-1.1.1.jar;D:\mark\Dropbox\kordev_repo\kordev\tiwulfx_v1.1_final\tiwulfx_v1.1_final\lib\poi-3.8-20120326.jar" />
+    <property name="application.splash" value="D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\src\img\chess-world-intelligence-abstract-chessboard-hd-wallpaper-69361.jpg" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="basedir" value="D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2" />
+    <property name="libs.jpa20-persistence.maven-pom" value="" />
+    <property name="jar.compress" value="true" />
+    <property name="libs.Hazelcast.src" value="" />
+    <property name="auxiliary.org-netbeans-modules-editor-indent.CodeStyle.project.text-limit-width" value="80" />
+    <property name="path.separator" value=";" />
+    <property name="ant.junit.enabletestlistenerevents" value="true" />
+    <property name="platform.javac" value="C:\Program Files\Java\jdk1.7.0_03/bin/javac" />
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle" />
+    <property name="libs.jaxws21.classpath" value="C:\Program Files\NetBeans 7.2.1\ide\modules\ext\jaxb\jaxb-impl.jar;C:\Program Files\NetBeans 7.2.1\ide\modules\ext\jaxb\jaxb-xjc.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\jaxws22\FastInfoset.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\jaxws22\gmbal-api-only.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\jaxws22\ha-api.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\jaxws22\javax.mail_1.4.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\jaxws22\jaxws-rt.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\jaxws22\jaxws-tools.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\jaxws22\management-api.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\jaxws22\mimepull.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\jaxws22\policy.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\jaxws22\saaj-impl.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\jaxws22\stax-ex.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\jaxws22\stax2-api.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\jaxws22\streambuffer.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\jaxws22\woodstox-core-asl.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\jaxws22\api\jaxws-api.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\jaxws22\api\jsr181-api.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\jaxws22\api\javax.annotation.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\jaxws22\api\saaj-api.jar;C:\Program Files\NetBeans 7.2.1\ide\modules\ext\jaxb\activation.jar;C:\Program Files\NetBeans 7.2.1\ide\modules\ext\jaxb\api\jaxb-api.jar;C:\Program Files\NetBeans 7.2.1\ide\modules\ext\jaxb\api\jsr173_1.0_api.jar" />
+    <property name="compile.on.save" value="true" />
+    <property name="apple.awt.graphics.UseQuartz" value="true" />
+    <property name="user.language" value="en" />
+    <property name="testng.mode" value="testng" />
+    <property name="libs.JAXB-ENDORSED.maven-pom" value="" />
+    <property name="libs.Jetty.src" value="" />
+    <property name="libs.spring-framework.classpath" value="C:\Program Files\NetBeans 7.2.1\ide\modules\org-apache-commons-logging.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\cglib-2.2.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\spring\spring-2.5.6.SEC03.jar" />
+    <property name="libs.eclipselink.maven-pom" value="" />
+    <property name="application.vendor" value="Mark Dechamps" />
+    <property name="manifest.available" value="true" />
+    <property name="libs.spring-framework300.maven-pom" value="" />
+    <property name="run.test.classpath" value="C:\Program Files\Java\jdk1.7.0_13\jre/lib/jfxrt.jar:C:\Program Files\Java\jdk1.7.0_13\jre/lib/deploy.jar:C:\Program Files\Java\jdk1.7.0_13\jre/lib/javaws.jar:C:\Program Files\Java\jdk1.7.0_13\jre/lib/plugin.jar:javafx-dialogs-0.0.3.jar:D:\mark\Dropbox\kordev_repo\kordev\simple-xml-2.7.1\jar\simple-xml-2.7.1.jar:D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\poi-3.9-20121203.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\poi-ooxml-3.9-20121203.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\xmlbeans-2.3.0.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\poi-ooxml-schemas-3.9-20121203.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\stax-api-1.0.1.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\dom4j-1.6.1.jar:../PairFXLib/dist/PairFXLib.jar:build/classes:C:\Program Files\NetBeans 7.2.1\platform\modules\ext\junit-4.10.jar:build/test/classes" />
+    <property name="ant.project.invoked-targets" value="test-single" />
+    <property name="libs.swing-layout.javadoc" value="C:\Program Files\NetBeans 7.2.1\platform\docs\swing-layout-1.0.4-doc.zip" />
+    <property name="libs.ejb3-persistence.maven-pom" value="" />
+    <property name="libs.PostgreSQLDriver.maven-pom" value="" />
+    <property name="java.class.version" value="51.0" />
+    <property name="libs.JAVADB_DRIVER_LABEL.classpath" value="C:\Program Files\Java\jdk1.7.0_03\db\lib\derby.jar;C:\Program Files\Java\jdk1.7.0_03\db\lib\derbyclient.jar;C:\Program Files\Java\jdk1.7.0_03\db\lib\derbynet.jar" />
+    <property name="netbeans.system_http_proxy" value="DIRECT" />
+    <property name="libs.eclipselink.javadoc" value="" />
+    <property name="do.depend.true" value="true" />
+    <property name="javafx.signing.keystore.password" value="dummy" />
+    <property name="user.properties.file" value="C:\Users\mim\AppData\Roaming\NetBeans\7.2.1\build.properties" />
+    <property name="runtime.encoding" value="UTF-8" />
+    <property name="javafx.rebase.libs" value="false" />
+    <property name="libs.spring-framework.src" value="" />
+    <property name="libs.javac-api.maven-pom" value="" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="libs.JAXB-ENDORSED.javadoc" value="" />
+    <property name="libs.JWSAntTasks.classpath" value="C:\Program Files\NetBeans 7.2.1\java\ant\extra\org-netbeans-modules-javawebstart-anttasks.jar" />
+    <property name="libs.Apache commons lang.maven-pom" value="" />
+    <property name="libs.spring-framework300.src" value="" />
+    <property name="ant.file.SchoolPairingFX2" value="D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\build.xml" />
+    <property name="empty.dir" value="D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\build\empty" />
+    <property name="javafx.deploy.backgroundupdate" value="false" />
+    <property name="libs.Apache POI.classpath" value="D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\poi-3.9-20121203.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\poi-ooxml-3.9-20121203.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\xmlbeans-2.3.0.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\poi-ooxml-schemas-3.9-20121203.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\stax-api-1.0.1.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\dom4j-1.6.1.jar" />
+    <property name="version-output" value="java version &quot;1.7.0_03&quot;&#xd;&#xa;Java(TM) SE Runtime Environment (build 1.7.0_03-b05)&#xd;&#xa;Java HotSpot(TM) 64-Bit Server VM (build 22.1-b02, mixed mode)" />
+    <property name="javafx.preloader.jar.path" value="" />
+    <property name="javadoc.preview" value="true" />
+    <property name="auxiliary.org-netbeans-modules-editor-indent.CodeStyle.usedProfile" value="project" />
+    <property name="libs.jpa20-persistence.javadoc" value="" />
+    <property name="libs.JSOUP.src" value="" />
+    <property name="nbplatform.default.harness.dir" value="C:\Program Files\NetBeans 7.2.1/harness" />
+    <property name="java.home" value="C:\Program Files\Java\jdk1.7.0_03\jre" />
+    <property name="debug.test.classpath" value="C:\Program Files\Java\jdk1.7.0_13\jre/lib/jfxrt.jar:C:\Program Files\Java\jdk1.7.0_13\jre/lib/deploy.jar:C:\Program Files\Java\jdk1.7.0_13\jre/lib/javaws.jar:C:\Program Files\Java\jdk1.7.0_13\jre/lib/plugin.jar:javafx-dialogs-0.0.3.jar:D:\mark\Dropbox\kordev_repo\kordev\simple-xml-2.7.1\jar\simple-xml-2.7.1.jar:D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\poi-3.9-20121203.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\poi-ooxml-3.9-20121203.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\xmlbeans-2.3.0.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\poi-ooxml-schemas-3.9-20121203.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\stax-api-1.0.1.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\dom4j-1.6.1.jar:../PairFXLib/dist/PairFXLib.jar:build/classes:C:\Program Files\NetBeans 7.2.1\platform\modules\ext\junit-4.10.jar:build/test/classes" />
+    <property name="file.reference.javafx-dialogs-0.0.3.jar" value="javafx-dialogs-0.0.3.jar" />
+    <property name="netbeans.importclass" value="org.netbeans.upgrade.AutoUpgrade" />
+    <property name="ant.project.default-target" value="default" />
+    <property name="annotation.processing.run.all.processors" value="true" />
+    <property name="libs.JSOUP.javadoc" value="" />
+    <property name="jar.archive.disabled" value="true" />
+    <property name="jnlp.signing.alias" value="" />
+    <property name="libs.simple-xml.javadoc" value="" />
+    <property name="libs.PostgreSQLDriver.javadoc" value="" />
+    <property name="javafx.main.class" value="schoolpairingfx.SchoolPairingFX" />
+    <property name="libs.MySQLDriver.maven-pom" value="" />
+    <property name="libs.junit_4.javadoc" value="C:\Program Files\NetBeans 7.2.1\java\docs\junit-4.10-javadoc.jar" />
+    <property name="run.classpath" value="dist/PairFX.jar:C:\Program Files\Java\jdk1.7.0_13\jre/lib/jfxrt.jar:C:\Program Files\Java\jdk1.7.0_13\jre/lib/deploy.jar:C:\Program Files\Java\jdk1.7.0_13\jre/lib/javaws.jar:C:\Program Files\Java\jdk1.7.0_13\jre/lib/plugin.jar:javafx-dialogs-0.0.3.jar:D:\mark\Dropbox\kordev_repo\kordev\simple-xml-2.7.1\jar\simple-xml-2.7.1.jar:D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\poi-3.9-20121203.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\poi-ooxml-3.9-20121203.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\xmlbeans-2.3.0.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\poi-ooxml-schemas-3.9-20121203.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\stax-api-1.0.1.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\dom4j-1.6.1.jar:../PairFXLib/dist/PairFXLib.jar" />
+    <property name="libs.hibernate-support.src" value="" />
+    <property name="endorsed.javafx.ant.classpath" value="." />
+    <property name="jna.boot.library.name" value="jnidispatch-340" />
+    <property name="libs.web.javadoc" value="" />
+    <property name="annotation.processing.enabled.in.editor" value="false" />
+    <property name="auxiliary.org-netbeans-modules-editor-indent.CodeStyle.project.indent-shift-width" value="4" />
+    <property name="auxiliary.org-netbeans-modules-editor-indent.CodeStyle.project.text-line-wrap" value="none" />
+    <property name="auxiliary.org-netbeans-modules-editor-indent.CodeStyle.project.expand-tabs" value="true" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="libs.simple-xml.classpath" value="D:\mark\Dropbox\kordev_repo\kordev\simple-xml-2.7.1\jar\simple-xml-2.7.1.jar" />
+    <property name="javac.deprecation" value="true" />
+    <property name="javadoc.use" value="true" />
+    <property name="sun.java2d.noddraw" value="true" />
+    <property name="libs.Jetty.maven-pom" value="" />
+    <property name="javac.processorpath" value="C:\Program Files\Java\jdk1.7.0_13\jre/lib/jfxrt.jar:C:\Program Files\Java\jdk1.7.0_13\jre/lib/deploy.jar:C:\Program Files\Java\jdk1.7.0_13\jre/lib/javaws.jar:C:\Program Files\Java\jdk1.7.0_13\jre/lib/plugin.jar:javafx-dialogs-0.0.3.jar:D:\mark\Dropbox\kordev_repo\kordev\simple-xml-2.7.1\jar\simple-xml-2.7.1.jar:D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\poi-3.9-20121203.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\poi-ooxml-3.9-20121203.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\xmlbeans-2.3.0.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\poi-ooxml-schemas-3.9-20121203.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\stax-api-1.0.1.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\dom4j-1.6.1.jar:../PairFXLib/dist/PairFXLib.jar" />
+    <property name="libs.Apache commons lang.src" value="" />
+    <property name="javac.compilerargs" value="" />
+    <property name="ant.file" value="D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\build.xml" />
+    <property name="libs.beans-binding.maven-pom" value="" />
+    <property name="jnlp.codebase.type" value="no.codebase" />
+    <property name="libs.simpl-xml.javadoc" value="" />
+    <property name="libs.JSOUP.classpath" value="D:\mark\Dropbox\kordev_repo\kordev\jsoup\lib\jsoup-1.6.3.jar" />
+    <property name="javafx.signing.type" value="self" />
+    <property name="libs.beans-binding.src" value="" />
+    <property name="platforms.JDK_1.7.13.bootclasspath" value="C:\Program Files\Java\jdk1.7.0_13\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_13\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_13\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_13\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_13\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_13\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_13\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.7.0_13\jre\classes;C:\Program Files\Java\jdk1.7.0_13\jre\lib\ext\access-bridge-64.jar;C:\Program Files\Java\jdk1.7.0_13\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.7.0_13\jre\lib\ext\jaccess.jar;C:\Program Files\Java\jdk1.7.0_13\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.7.0_13\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.7.0_13\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.7.0_13\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.7.0_13\jre\lib\ext\zipfs.jar" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="libs.swing-layout.src" value="C:\Program Files\NetBeans 7.2.1\platform\docs\swing-layout-1.0.4-src.zip" />
+    <property name="org.openide.major.version" value="IDE/1" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="javafx.preloader.jar.filename" value="" />
+    <property name="platforms.Default_JavaFX_Platform.compiler" value="modern" />
+    <property name="platforms.JDK_1.7.13.compiler" value="modern" />
+    <property name="netbeans.user" value="C:\Users\mim\AppData\Roaming\NetBeans\7.2.1" />
+    <property name="javadoc.additionalparam" value="" />
+    <property name="jnlp.offline-allowed" value="false" />
+    <property name="java.io.tmpdir" value="C:\Users\mim\AppData\Local\Temp\" />
+    <property name="javafx.run.inbrowser.path" value="C:\Program Files (x86)\Mozilla Firefox\firefox.exe" />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="endorsed.classpath.cmd.line.arg" value="" />
+    <property name="junit.available" value="true" />
+    <property name="libs.simple-xml.src" value="" />
+    <property name="org.openide.awt.ActionReference.completion" value="org.netbeans.modules.apisupport.project.layers.PathCompletions" />
+    <property name="libs.Apache commons lang.javadoc" value="" />
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.7.0_03\jre\bin" />
+    <property name="have.sources" value="true" />
+    <property name="debug.classpath" value="dist/PairFX.jar:C:\Program Files\Java\jdk1.7.0_13\jre/lib/jfxrt.jar:C:\Program Files\Java\jdk1.7.0_13\jre/lib/deploy.jar:C:\Program Files\Java\jdk1.7.0_13\jre/lib/javaws.jar:C:\Program Files\Java\jdk1.7.0_13\jre/lib/plugin.jar:javafx-dialogs-0.0.3.jar:D:\mark\Dropbox\kordev_repo\kordev\simple-xml-2.7.1\jar\simple-xml-2.7.1.jar:D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\poi-3.9-20121203.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\poi-ooxml-3.9-20121203.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\xmlbeans-2.3.0.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\poi-ooxml-schemas-3.9-20121203.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\stax-api-1.0.1.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\dom4j-1.6.1.jar:../PairFXLib/dist/PairFXLib.jar" />
+    <property name="javadoc.private" value="false" />
+    <property name="test.src.dir" value="test" />
+    <property name="ap.processors.internal" value="" />
+    <property name="meta.inf.dir" value="src/META-INF" />
+    <property name="javadoc.encoding.used" value="UTF-8" />
+    <property name="dist.jar" value="dist/PairFX.jar" />
+    <property name="libs.tiwulfx.src" value="" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="ant.project.name" value="SchoolPairingFX2" />
+    <property name="netbeans.hash.code" value="unique=NB_JAVA078ae09e4-e6f2-42d9-be22-f1712588604b_3c89f5c7-1a2e-4be6-aa3b-b51a305c6336" />
+    <property name="netbeans.default_userdir_root" value="C:\Users\mim\AppData\Roaming\NetBeans" />
+    <property name="platform.javadoc" value="C:\Program Files\Java\jdk1.7.0_03/bin/javadoc" />
+    <property name="platform.javadoc.tmp" value="${platforms.Default_JavaFX_Platform.javadoc}" />
+    <property name="manifest.available-mkdist.available" value="true" />
+    <property name="sun.cpu.isalist" value="amd64" />
+    <property name="libs.CopyLibs.javadoc" value="" />
+    <property name="platform.compiler" value="${platforms.Default_JavaFX_Platform.compile}" />
+    <property name="org.openide.specification.version" value="6.2" />
+    <property name="libs.hibernate-support.classpath" value="C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\antlr-2.7.6.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\asm.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\asm-attrs.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\cglib-2.1.3.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\commons-collections-2.1.1.jar;C:\Program Files\NetBeans 7.2.1\ide\modules\org-apache-commons-logging.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\dom4j-1.6.1.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\ehcache-1.2.3.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\jdbc2_0-stdext.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\jta.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\hibernate3.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\hibernate-tools.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\hibernate-annotations.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\hibernate-commons-annotations.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\hibernate-entitymanager.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\javassist.jar" />
+    <property name="user.home" value="C:\Users\mim" />
+    <property name="annotation.processing.processors.list" value="" />
+    <property name="debug-args-line" value="-Xdebug" />
+    <property name="platform.javac.tmp" value="${platforms.Default_JavaFX_Platform.javac}" />
+    <property name="libs.JWSAntTasks.src" value="" />
+    <property name="jar.index" value="false" />
+    <property name="libs.CopyLibs.maven-pom" value="" />
+    <property name="libs.spring-framework300.javadoc" value="" />
+    <property name="libs.hibernate-persistence.maven-pom" value="" />
+    <property name="libs.absolutelayout.javadoc" value="" />
+    <property name="guice.disable.misplaced.annotation.check" value="true" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="ant.file.type.PairFX-impl" value="file" />
+    <property name="jnlp.mixed.code" value="default" />
+    <property name="libs.web.classpath" value="D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\winstone-0.9.9.jar" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="libs.javac-api.classpath" value="C:\Program Files\NetBeans 7.2.1\java\modules\ext\nb-javac-api.jar" />
+    <property name="platforms.Default_JavaFX_Platform.javafx.runtime.home" value="C:\Program Files\Java\jdk1.7.0_13\jre" />
+    <property name="java.version" value="1.7.0_03" />
+    <property name="run.jvmargs.ide" value="" />
+    <property name="javadoc.version" value="false" />
+    <property name="libs.MySQLDriver.javadoc" value="" />
+    <property name="org.openide.version" value="deprecated" />
+    <property name="platform.java" value="C:\Program Files\Java\jdk1.7.0_03/bin/java" />
+    <property name="source.encoding" value="UTF-8" />
+    <property name="libs.Hazelcast.maven-pom" value="" />
+    <property name="ap.cmd.line.internal" value="" />
+    <property name="libs.eclipselinkmodelgen.maven-pom" value="" />
+    <property name="libs.simpl-xml.maven-pom" value="" />
+    <property name="ant.file.type.jfx-impl" value="file" />
+    <property name="libs.junit.maven-pom" value="" />
+    <property name="libs.eclipselinkmodelgen.javadoc" value="" />
+    <property name="ant.file.jfx-impl" value="D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\nbproject\jfx-impl.xml" />
+    <property name="netbeans.home+have.tests" value="true" />
+    <property name="javafx.deploy.adddesktopshortcut" value="false" />
+    <property name="annotation.processing.processor.options" value="" />
+    <property name="libs.testng.maven-pom" value="" />
+    <property name="libs.jaxb.src" value="" />
+    <property name="project.PairFXLib" value="../PairFXLib" />
+    <property name="work.dir" value="D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2" />
+    <property name="compile.on.save.unsupported.javafx" value="true" />
+    <property name="libs.jaxb.classpath" value="C:\Program Files\NetBeans 7.2.1\ide\modules\ext\jaxb\jaxb-impl.jar;C:\Program Files\NetBeans 7.2.1\ide\modules\ext\jaxb\jaxb-xjc.jar;C:\Program Files\NetBeans 7.2.1\ide\modules\ext\jaxb\jaxb1-impl.jar;C:\Program Files\NetBeans 7.2.1\ide\modules\ext\jaxb\activation.jar;C:\Program Files\NetBeans 7.2.1\ide\modules\ext\jaxb\api\jaxb-api.jar;C:\Program Files\NetBeans 7.2.1\ide\modules\ext\jaxb\api\jsr173_1.0_api.jar" />
+    <property name="libs.tiwulfx.maven-pom" value="" />
+    <property name="do.depend" value="true" />
+    <property name="dist.javadoc.dir" value="dist/javadoc" />
+    <property name="libs.swing-layout.classpath" value="C:\Program Files\NetBeans 7.2.1\platform\modules\ext\swing-layout-1.0.4.jar" />
+    <property name="platforms.JDK_1.7.13.home" value="C:\Program Files\Java\jdk1.7.0_13" />
+    <property name="javac.source" value="1.7" />
+    <property name="build.generated.dir" value="build/generated" />
+    <property name="libs.Hazelcast.javadoc" value="" />
+    <property name="javafx.fallback.class" value="com.javafx.main.NoJavaFXFallback" />
+    <property name="libs.hibernate-persistence.src" value="" />
+    <property name="auxiliary.org-netbeans-modules-editor-indent.CodeStyle.project.tab-size" value="8" />
+    <property name="line.separator" value="&#xd;&#xa;" />
+    <property name="java.specification.version" value="1.7" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="libs.jaxws21.maven-pom" value="" />
+    <property name="nb.junit.batch" value="true" />
+    <property name="junit.forkmode" value="perTest" />
+    <property name="user.country.format" value="BE" />
+    <property name="platform.java.tmp" value="${platforms.Default_JavaFX_Platform.java}" />
+    <property name="libs.spring-framework.maven-pom" value="" />
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.7.0_03\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_03\jre\classes" />
+    <property name="javac.target" value="1.7" />
+    <property name="built-jar.properties" value="D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\build\built-jar.properties" />
+    <property name="build.test.classes.dir" value="build/test/classes" />
+    <property name="javafx.deploy.permissionselevated" value="false" />
+    <property name="src.dir" value="src" />
+    <property name="platforms.Default_JavaFX_Platform.bootclasspath" value="C:\Program Files\Java\jdk1.7.0_03\jre\lib\resources.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\rt.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\jce.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.7.0_03\jre\classes;C:\Program Files\Java\jdk1.7.0_03\jre\lib\ext\dnsns.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\ext\localedata.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\ext\sunec.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\ext\sunjce_provider.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\ext\sunmscapi.jar;C:\Program Files\Java\jdk1.7.0_03\jre\lib\ext\zipfs.jar" />
+    <property name="sun.awt.keepWorkingSetOnMinimize" value="true" />
+    <property name="annotation.processing.enabled" value="true" />
+    <property name="libs.jpa20-persistence.src" value="" />
+    <property name="auxiliary.org-netbeans-modules-editor-indent.CodeStyle.project.spaces-per-tab" value="4" />
+    <property name="libs.JAVADB_DRIVER_LABEL.maven-pom" value="" />
+    <property name="nbplatform.default.netbeans.dest.dir" value="C:\Program Files\NetBeans 7.2.1" />
+    <property name="ignore.failing.tests" value="true" />
+    <property name="javafx.deploy.embedJNLP" value="true" />
+    <property name="dist.dir" value="dist" />
+    <property name="libs.groovy-all.javadoc" value="" />
+    <property name="testng.debug.mode" value="" />
+    <property name="libs.groovy-all.classpath" value="C:\Program Files\NetBeans 7.2.1\groovy\modules\ext\groovy-all.jar" />
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob" />
+    <property name="default.javac.source" value="1.7" />
+    <property name="debug-transport-by-os" value="dt_shmem" />
+    <property name="sun.jnu.encoding" value="Cp1252" />
+    <property name="libs.MySQLDriver.src" value="" />
+    <property name="java.runtime.version" value="1.7.0_03-b05" />
+    <property name="build.test.results.dir" value="build/test/results" />
+    <property name="libs.ejb3-persistence.javadoc" value="" />
+    <property name="javafx.run.inbrowser" value="&lt;Default System Browser&gt;" />
+    <property name="libs.Apache POI.maven-pom" value="" />
+    <property name="default.javac.target" value="1.7" />
+    <property name="libs.junit_4.classpath" value="C:\Program Files\NetBeans 7.2.1\platform\modules\ext\junit-4.10.jar" />
+    <property name="user.timezone" value="" />
+    <property name="nb.junit.single" value="false" />
+    <property name="application.homepage" value="http://www.mdconsulting.be/pairfx" />
+    <property name="do.jar" value="true" />
+    <property name="libs.JAVADB_DRIVER_LABEL.javadoc" value="" />
+    <property name="javafx.signing.keyalias.password" value="dummy" />
+    <property name="platforms.Default_JavaFX_Platform.javafx.sdk.home" value="C:\Program Files\Java\jdk1.8.0" />
+    <property name="netbeans.dirs" value="C:\Program Files\NetBeans 7.2.1\nb;C:\Program Files\NetBeans 7.2.1\ergonomics;C:\Program Files\NetBeans 7.2.1\ide;C:\Program Files\NetBeans 7.2.1\java;C:\Program Files\NetBeans 7.2.1\apisupport;C:\Program Files\NetBeans 7.2.1\webcommon;C:\Program Files\NetBeans 7.2.1\websvccommon;C:\Program Files\NetBeans 7.2.1\enterprise;C:\Program Files\NetBeans 7.2.1\mobility;C:\Program Files\NetBeans 7.2.1\profiler;C:\Program Files\NetBeans 7.2.1\python;C:\Program Files\NetBeans 7.2.1\php;C:\Program Files\NetBeans 7.2.1\identity;C:\Program Files\NetBeans 7.2.1\harness;C:\Program Files\NetBeans 7.2.1\cnd;C:\Program Files\NetBeans 7.2.1\dlight;C:\Program Files\NetBeans 7.2.1\groovy;C:\Program Files\NetBeans 7.2.1\extra;C:\Program Files\NetBeans 7.2.1\javacard;C:\Program Files\NetBeans 7.2.1\javafx" />
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.7.0_03\jre\lib\ext;C:\Windows\Sun\Java\lib\ext" />
+    <property name="ant.file.PairFX-impl" value="D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\nbproject\build-impl.xml" />
+    <property name="endorsed.classpath" value="" />
+    <property name="libs.absolutelayout.classpath" value="C:\Program Files\NetBeans 7.2.1\java\modules\ext\AbsoluteLayout.jar" />
+    <property name="excludes" value="" />
+    <property name="libs.simpl-xml.src" value="" />
+    <property name="apple.laf.useScreenMenuBar" value="true" />
+    <property name="java.class.path" value="C:\Program Files\Java\jdk1.7.0_13\jre\lib\jfxrt.jar;C:\Program Files\Java\jdk1.7.0_13\jre\lib\deploy.jar;C:\Program Files\Java\jdk1.7.0_13\jre\lib\javaws.jar;C:\Program Files\Java\jdk1.7.0_13\jre\lib\plugin.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\javafx-dialogs-0.0.3.jar;D:\mark\Dropbox\kordev_repo\kordev\simple-xml-2.7.1\jar\simple-xml-2.7.1.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\poi-3.9-20121203.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\poi-ooxml-3.9-20121203.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\xmlbeans-2.3.0.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\poi-ooxml-schemas-3.9-20121203.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\stax-api-1.0.1.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\lib\dom4j-1.6.1.jar;D:\mark\Dropbox\kordev_repo\kordev\PairFXLib\dist\PairFXLib.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\build\classes;C:\Program Files\NetBeans 7.2.1\platform\modules\ext\junit-4.10.jar;D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\build\test\classes;C:\Program Files (x86)\Belgium Identity Card;C:\Program Files\NetBeans 7.2.1\java\ant\lib\ant-launcher.jar;C:\Program Files\NetBeans 7.2.1\java\ant\lib\ant.jar;C:\Program Files\NetBeans 7.2.1\java\ant\lib\ant-junit.jar;C:\Program Files\NetBeans 7.2.1\java\ant\lib\ant-junit4.jar" />
+    <property name="libs.absolutelayout.src" value="" />
+    <property name="libs.jpa20-persistence.classpath" value="C:\Program Files\NetBeans 7.2.1\java\modules\ext\eclipselink\javax.persistence-2.0.3.jar" />
+    <property name="os.version" value="6.1" />
+    <property name="build.generated.subdirs" value="D:\mark\Dropbox\kordev_repo\kordev\SchoolPairingFX2\build\generated-sources\ap-source-output" />
+    <property name="application.args" value="" />
+    <property name="ant.file.type.SchoolPairingFX2" value="file" />
+    <property name="sun.awt.enableExtraMouseButtons" value="true" />
+    <property name="main.class.available" value="true" />
+    <property name="sun.desktop" value="windows" />
+    <property name="libs.Jetty.javadoc" value="" />
+    <property name="javafx.sdk" value="C:\Program Files\Java\jdk1.8.0" />
+    <property name="javafx.deploy.allowoffline" value="true" />
+    <property name="libs.JAXB-ENDORSED.classpath" value="C:\Program Files\NetBeans 7.2.1\ide\modules\ext\jaxb\api\jaxb-api.jar" />
+    <property name="libs.eclipselink.classpath" value="C:\Program Files\NetBeans 7.2.1\java\modules\ext\eclipselink\eclipselink-2.3.2.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\eclipselink\javax.persistence-2.0.3.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\eclipselink\org.eclipse.persistence.jpa.jpql_1.0.1.jar" />
+    <property name="libs.beans-binding.javadoc" value="C:\Program Files\NetBeans 7.2.1\java\docs\beansbinding-1.2.1-doc.zip" />
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment" />
+    <property name="libs.simple-xml.maven-pom" value="" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="libs.CopyLibs.classpath" value="C:\Program Files\NetBeans 7.2.1\java\ant\extra\org-netbeans-modules-java-j2seproject-copylibstask.jar" />
+    <property name="libs.spring-framework300.classpath" value="C:\Program Files\NetBeans 7.2.1\ide\modules\org-apache-commons-logging.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\cglib-2.2.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\spring-3.0\spring-aop-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\spring-3.0\spring-asm-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\spring-3.0\spring-aspects-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\spring-3.0\spring-beans-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\spring-3.0\spring-context-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\spring-3.0\spring-context-support-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\spring-3.0\spring-core-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\spring-3.0\spring-expression-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\spring-3.0\spring-instrument-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\spring-3.0\spring-instrument-tomcat-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\spring-3.0\spring-jdbc-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\spring-3.0\spring-jms-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\spring-3.0\spring-orm-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\spring-3.0\spring-oxm-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\spring-3.0\spring-test-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\spring-3.0\spring-tx-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\spring-3.0\spring-web-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\spring-3.0\spring-webmvc-portlet-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\spring-3.0\spring-webmvc-3.1.1.RELEASE.jar;C:\Program Files\NetBeans 7.2.1\java\modules\ext\spring-3.0\spring-struts-3.1.1.RELEASE.jar" />
+    <property name="run.jvmargs" value="-Dlocale=nl" />
+    <property name="libs.ejb3-persistence.classpath" value="C:\Program Files\NetBeans 7.2.1\java\modules\ext\hibernate\ejb3-persistence.jar" />
+    <property name="javafx.signing.keystore" value="" />
+    <property name="libs.JAXB-ENDORSED.src" value="" />
+    <property name="libs.spring-framework.javadoc" value="" />
+    <property name="libs.testng.javadoc" value="C:\Program Files\NetBeans 7.2.1\platform\docs\testng-6.5.1-javadoc.zip" />
+    <property name="user.script" value="" />
+    <property name="libs.PostgreSQLDriver.classpath" value="C:\Program Files\NetBeans 7.2.1\ide\modules\ext\postgresql-9.1-901.jdbc4.jar" />
+    <property name="jnlp.signing" value="" />
+    <property name="libs.junit.src" value="" />
+    <property name="jnlp.signed" value="false" />
+    <property name="annotation.processing.source.output" value="build/generated-sources/ap-source-output" />
+    <property name="main.class" value="com.javafx.main.Main" />
+    <property name="libs.JSOUP.maven-pom" value="" />
+    <property name="libs.CopyLibs.src" value="" />
+    <property name="build.dir" value="build" />
+    <property name="libs.simpl-xml.classpath" value="D:\mark\Dropbox\kordev_repo\kordev\simple-xml-2.7.1\lib\stax-1.2.0.jar;D:\mark\Dropbox\kordev_repo\kordev\simple-xml-2.7.1\lib\stax-api-1.0.1.jar;D:\mark\Dropbox\kordev_repo\kordev\simple-xml-2.7.1\lib\xpp3-1.1.3_8.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.8.3 compiled on February 26 2012" />
+    <property name="file.encoding" value="Cp1252" />
+    <property name="build.classes.excludes" value="**/*.java,**/*.form" />
+    <property name="javadoc.nonavbar" value="false" />
+    <property name="libs.Apache commons lang.classpath" value="D:\mark\Dropbox\kordev_repo\kordev\fixedformat4j\commons-lang3-3.1.jar;D:\mark\Dropbox\kordev_repo\kordev\fixedformat4j\commons-logging-1.1.1.jar" />
+    <property name="platform.active" value="Default_JavaFX_Platform" />
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit" />
+    <property name="javafx.deploy.installpermanently" value="false" />
+    <property name="locale" value="nl" />
+  </properties>
+  <testcase classname="TestFormat" name="testDateFormat" time="0.001" />
+  <testcase classname="TestFormat" name="testFormat" time="0.001" />
+  <testcase classname="TestPairing" name="testUndoPairingWithPointsAdapted" time="0.006" />
+  <testcase classname="TestPairing" name="testUndoPairingLeavesPointsAloneWhenGameNotPlayed" time="0.0" />
+  <testcase classname="TestPairing" name="testPairingWithMaxPercentage" time="0.001" />
+  <testcase classname="TestPairing" name="testPairing" time="0.004" />
+  <testcase classname="schoolpairingfx.TestModel" name="testName" time="0.001" />
+  <testcase classname="schoolpairingfx.TestModel" name="testUndoUnplayedPairingDoesNotModifyPoints" time="0.006" />
+  <testcase classname="schoolpairingfx.TestModel" name="testUndoUnplayedPairingDoesNotModifyPointsWhenPointsAreUpdated" time="0.0" />
+  <testcase classname="schoolpairingfx.TestModel" name="testSortByPointsAndByPercentageWithMarkAndPieter" time="0.003" />
+  <testcase classname="schoolpairingfx.TestModel" name="testRankingString" time="0.001" />
+  <testcase classname="model.TestTournament" name="testPlayerWithNoGamesHas0Percent" time="0.0" />
+  <testcase classname="model.TestTournament" name="testPercentageRound" time="0.001" />
+  <testcase classname="model.TestTournament" name="testPercentageDouble" time="0.001" />
+  <testcase classname="model.TestTournament" name="testNumberOfFinishedGame" time="0.001" />
+  <testcase classname="model.TestTournament" name="bigTournament" time="1.193" />
+  <testcase classname="importXLS.TestImportXLS" name="testMaakSpelerUit" time="0.001" />
+  <testcase classname="importXLS.TestImportXLS" name="testValidatePlayer_naam_is_leeg" time="0.062" />
+  <testcase classname="importXLS.TestImportXLS" name="testValidatePlayer_voornaam_is_leeg" time="0.001" />
+  <testcase classname="importXLS.TestImportXLS" name="testValidatePlayer_id_is_leeg" time="0.0" />
+  <testcase classname="importXLS.TestImportXLS" name="testValidatePlayer_alles_is_leeg" time="0.0" />
+  <testcase classname="importXLS.TestImportXLS" name="testValidatePlayer_naam_en_voornaam_is_leeg" time="0.0" />
+  <testcase classname="importXLS.TestImportXLS" name="parseXLS" time="0.175" />
+  <testcase classname="importXLS.TestImportXLS" name="parseXLSX" time="0.486" />
+  <system-out><![CDATA[result:12/04/2014 05:40:11
+Floating-point with commas: 1,234,567.123000
+1,0
+Pairingstrategy: PERCENTAGE
+Pairingstrategy: PERCENTAGE
+Pairingstrategy: PERCENTAGE
+Pairingstrategy: PERCENTAGE
+[Pieter Truwant (1200 (0)(sb:0.0) - JP Blondel (1200 (0)(sb:0.0)]
+[Didier Dalschaert (1200 (0)(sb:0.0) - Marcel Demaertelaere (1200 (0)(sb:0.0)]
+[Herman Ottevaere (1200 (5)(sb:0.0) - Mark Dechamps (1200 (10)(sb:0.0)]
+[Roland Seynaeve (1200 (5)(sb:0.0) - Nele Vanhuyse (1200 (10)(sb:0.0)]
+Pairingstrategy: POINTS
+name:         v                 naam
+Pairingstrategy: POINTS
+Pairingstrategy: POINTS
+Pairingstrategy: POINTS
+--begin--
+player:Pieter Truwant 10
+player:Mark Dechamps 20
+player:Bart Marescaux 10
+player:Norah Dechamps 10
+player:Jan Claesen 0
+--end--
+--begin--
+player:Mark Dechamps 20
+player:Pieter Truwant 10
+player:Bart Marescaux 10
+player:Norah Dechamps 10
+player:Jan Claesen 0
+--end--
+Pairingstrategy: POINTS
+Pairingstrategy: PERCENTAGE
+-------Ronde 0 --------------
+#Te spelen partijen:8
+Jules  vs Jonathan      1 - 0
+   W->Jules  100%      1/1
+   Z->Jonathan  0%      0/1
+Thomas_fout  vs Serge      1 - 0
+   W->Thomas_fout  100%      1/1
+   Z->Serge  0%      0/1
+Thomas2  vs Lukas      1 - 0
+   W->Thomas2  100%      1/1
+   Z->Lukas  0%      0/1
+Victor  vs Ruben      1 - 0
+   W->Victor  100%      1/1
+   Z->Ruben  0%      0/1
+Adrien  vs Francesca      1 - 0
+   W->Adrien  100%      1/1
+   Z->Francesca  0%      0/1
+Tiffany  vs Thibaut      1 - 0
+   W->Tiffany  100%      1/1
+   Z->Thibaut  0%      0/1
+Thomas  vs Niels      1 - 0
+   W->Thomas  100%      1/1
+   Z->Niels  0%      0/1
+Brent  vs Norah      1 - 0
+   W->Brent  100%      1/1
+   Z->Norah  0%      0/1
+-------Ronde 1 --------------
+#Te spelen partijen:8
+Jonathan  vs Serge      1 - 0
+   W->Jonathan  50%      1/2
+   Z->Serge  0%      0/2
+Lukas  vs Ruben      1 - 0
+   W->Lukas  50%      1/2
+   Z->Ruben  0%      0/2
+Francesca  vs Thibaut      1 - 0
+   W->Francesca  50%      1/2
+   Z->Thibaut  0%      0/2
+Niels  vs Norah      1 - 0
+   W->Niels  50%      1/2
+   Z->Norah  0%      0/2
+Jules  vs Thomas_fout      1 - 0
+   W->Jules  100%      2/2
+   Z->Thomas_fout  50%      1/2
+Thomas2  vs Victor      1 - 0
+   W->Thomas2  100%      2/2
+   Z->Victor  50%      1/2
+Adrien  vs Tiffany      1 - 0
+   W->Adrien  100%      2/2
+   Z->Tiffany  50%      1/2
+Thomas  vs Brent      1 - 0
+   W->Thomas  100%      2/2
+   Z->Brent  50%      1/2
+-------Ronde 2 --------------
+#Te spelen partijen:8
+Serge  vs Ruben      1 - 0
+   W->Serge  33%      1/3
+   Z->Ruben  0%      0/3
+Thibaut  vs Norah      1 - 0
+   W->Thibaut  33%      1/3
+   Z->Norah  0%      0/3
+Thomas_fout  vs Jonathan      1 - 0
+   W->Thomas_fout  67%      2/3
+   Z->Jonathan  33%      1/3
+Victor  vs Lukas      1 - 0
+   W->Victor  67%      2/3
+   Z->Lukas  33%      1/3
+Tiffany  vs Francesca      1 - 0
+   W->Tiffany  67%      2/3
+   Z->Francesca  33%      1/3
+Brent  vs Niels      1 - 0
+   W->Brent  67%      2/3
+   Z->Niels  33%      1/3
+Jules  vs Thomas2      1 - 0
+   W->Jules  100%      3/3
+   Z->Thomas2  67%      2/3
+Adrien  vs Thomas      1 - 0
+   W->Adrien  100%      3/3
+   Z->Thomas  67%      2/3
+-------Ronde 3 --------------
+#Te spelen partijen:8
+Ruben  vs Norah      1 - 0
+   W->Ruben  25%      1/4
+   Z->Norah  0%      0/4
+Jonathan  vs Lukas      1 - 0
+   W->Jonathan  50%      2/4
+   Z->Lukas  25%      1/4
+Francesca  vs Serge      1 - 0
+   W->Francesca  50%      2/4
+   Z->Serge  25%      1/4
+Niels  vs Thibaut      1 - 0
+   W->Niels  50%      2/4
+   Z->Thibaut  25%      1/4
+Thomas2  vs Thomas_fout      1 - 0
+   W->Thomas2  75%      3/4
+   Z->Thomas_fout  50%      2/4
+Victor  vs Tiffany      1 - 0
+   W->Victor  75%      3/4
+   Z->Tiffany  50%      2/4
+Thomas  vs Jules      1 - 0
+   W->Thomas  75%      3/4
+   Z->Jules  75%      3/4
+Brent  vs Adrien      1 - 0
+   W->Brent  75%      3/4
+   Z->Adrien  75%      3/4
+-------Ronde 4 --------------
+Niet spelend:Thomas  75%      3/4
+Niet spelend:Brent  75%      3/4
+#Te spelen partijen:7
+Norah  vs Serge      1 - 0
+   W->Norah  20%      1/5
+   Z->Serge  20%      1/5
+Lukas  vs Thibaut      1 - 0
+   W->Lukas  40%      2/5
+   Z->Thibaut  20%      1/5
+Ruben  vs Jonathan      1 - 0
+   W->Ruben  40%      2/5
+   Z->Jonathan  40%      2/5
+Thomas_fout  vs Francesca      1 - 0
+   W->Thomas_fout  60%      3/5
+   Z->Francesca  40%      2/5
+Tiffany  vs Niels      1 - 0
+   W->Tiffany  60%      3/5
+   Z->Niels  40%      2/5
+Jules  vs Victor      1 - 0
+   W->Jules  80%      4/5
+   Z->Victor  60%      3/5
+Adrien  vs Thomas2      1 - 0
+   W->Adrien  80%      4/5
+   Z->Thomas2  60%      3/5
+-------Ronde 5 --------------
+#Te spelen partijen:8
+Serge  vs Thibaut      1 - 0
+   W->Serge  33%      2/6
+   Z->Thibaut  17%      1/6
+Jonathan  vs Norah      1 - 0
+   W->Jonathan  50%      3/6
+   Z->Norah  17%      1/6
+Francesca  vs Lukas      1 - 0
+   W->Francesca  50%      3/6
+   Z->Lukas  33%      2/6
+Niels  vs Ruben      1 - 0
+   W->Niels  50%      3/6
+   Z->Ruben  33%      2/6
+Thomas2  vs Thomas_fout      1 - 0
+   W->Thomas2  67%      4/6
+   Z->Thomas_fout  50%      3/6
+Victor  vs Tiffany      1 - 0
+   W->Victor  67%      4/6
+   Z->Tiffany  50%      3/6
+Thomas  vs Jules      1 - 0
+   W->Thomas  80%      4/5
+   Z->Jules  67%      4/6
+Brent  vs Adrien      1 - 0
+   W->Brent  80%      4/5
+   Z->Adrien  67%      4/6
+-------Ronde 6 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Thibaut  vs Serge      1 - 0
+   W->Thibaut  29%      2/7
+   Z->Serge  29%      2/7
+Norah  vs Lukas      1 - 0
+   W->Norah  29%      2/7
+   Z->Lukas  29%      2/7
+Ruben  vs Jonathan      1 - 0
+   W->Ruben  43%      3/7
+   Z->Jonathan  43%      3/7
+Thomas_fout  vs Francesca      1 - 0
+   W->Thomas_fout  57%      4/7
+   Z->Francesca  43%      3/7
+Tiffany  vs Niels      1 - 0
+   W->Tiffany  57%      4/7
+   Z->Niels  43%      3/7
+Jules  vs Victor      1 - 0
+   W->Jules  71%      5/7
+   Z->Victor  57%      4/7
+Adrien  vs Thomas2      1 - 0
+   W->Adrien  71%      5/7
+   Z->Thomas2  57%      4/7
+-------Ronde 7 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Serge  vs Lukas      1 - 0
+   W->Serge  38%      3/8
+   Z->Lukas  25%      2/8
+Jonathan  vs Thibaut      1 - 0
+   W->Jonathan  50%      4/8
+   Z->Thibaut  25%      2/8
+Norah  vs Ruben      1 - 0
+   W->Norah  38%      3/8
+   Z->Ruben  38%      3/8
+Francesca  vs Niels      1 - 0
+   W->Francesca  50%      4/8
+   Z->Niels  38%      3/8
+Thomas2  vs Thomas_fout      1 - 0
+   W->Thomas2  63%      5/8
+   Z->Thomas_fout  50%      4/8
+Victor  vs Tiffany      1 - 0
+   W->Victor  63%      5/8
+   Z->Tiffany  50%      4/8
+Jules  vs Adrien      1 - 0
+   W->Jules  75%      6/8
+   Z->Adrien  63%      5/8
+-------Ronde 8 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Lukas  vs Thibaut      1 - 0
+   W->Lukas  33%      3/9
+   Z->Thibaut  22%      2/9
+Niels  vs Serge      1 - 0
+   W->Niels  44%      4/9
+   Z->Serge  33%      3/9
+Ruben  vs Norah      1 - 0
+   W->Ruben  44%      4/9
+   Z->Norah  33%      3/9
+Jonathan  vs Francesca      1 - 0
+   W->Jonathan  56%      5/9
+   Z->Francesca  44%      4/9
+Thomas_fout  vs Tiffany      1 - 0
+   W->Thomas_fout  56%      5/9
+   Z->Tiffany  44%      4/9
+Adrien  vs Thomas2      1 - 0
+   W->Adrien  67%      6/9
+   Z->Thomas2  56%      5/9
+Victor  vs Jules      1 - 0
+   W->Victor  67%      6/9
+   Z->Jules  67%      6/9
+-------Ronde 9 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Thibaut  vs Serge      1 - 0
+   W->Thibaut  30%      3/10
+   Z->Serge  30%      3/10
+Norah  vs Lukas      1 - 0
+   W->Norah  40%      4/10
+   Z->Lukas  30%      3/10
+Francesca  vs Ruben      1 - 0
+   W->Francesca  50%      5/10
+   Z->Ruben  40%      4/10
+Tiffany  vs Niels      1 - 0
+   W->Tiffany  50%      5/10
+   Z->Niels  40%      4/10
+Thomas2  vs Jonathan      1 - 0
+   W->Thomas2  60%      6/10
+   Z->Jonathan  50%      5/10
+Thomas_fout  vs Victor      1 - 0
+   W->Thomas_fout  60%      6/10
+   Z->Victor  60%      6/10
+Jules  vs Adrien      1 - 0
+   W->Jules  70%      7/10
+   Z->Adrien  60%      6/10
+-------Ronde 10 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Serge  vs Lukas      1 - 0
+   W->Serge  36%      4/11
+   Z->Lukas  27%      3/11
+Ruben  vs Thibaut      1 - 0
+   W->Ruben  45%      5/11
+   Z->Thibaut  27%      3/11
+Niels  vs Jonathan      1 - 0
+   W->Niels  45%      5/11
+   Z->Jonathan  45%      5/11
+Norah  vs Francesca      1 - 0
+   W->Norah  45%      5/11
+   Z->Francesca  45%      5/11
+Tiffany  vs Thomas_fout      1 - 0
+   W->Tiffany  55%      6/11
+   Z->Thomas_fout  55%      6/11
+Adrien  vs Thomas2      1 - 0
+   W->Adrien  64%      7/11
+   Z->Thomas2  55%      6/11
+Victor  vs Jules      1 - 0
+   W->Victor  64%      7/11
+   Z->Jules  64%      7/11
+-------Ronde 11 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Lukas  vs Thibaut      1 - 0
+   W->Lukas  33%      4/12
+   Z->Thibaut  25%      3/12
+Francesca  vs Serge      1 - 0
+   W->Francesca  50%      6/12
+   Z->Serge  33%      4/12
+Jonathan  vs Ruben      1 - 0
+   W->Jonathan  50%      6/12
+   Z->Ruben  42%      5/12
+Niels  vs Thomas_fout      1 - 0
+   W->Niels  50%      6/12
+   Z->Thomas_fout  50%      6/12
+Thomas2  vs Norah      1 - 0
+   W->Thomas2  58%      7/12
+   Z->Norah  42%      5/12
+Jules  vs Tiffany      1 - 0
+   W->Jules  67%      8/12
+   Z->Tiffany  50%      6/12
+Victor  vs Adrien      1 - 0
+   W->Victor  67%      8/12
+   Z->Adrien  58%      7/12
+-------Ronde 12 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Thibaut  vs Serge      1 - 0
+   W->Thibaut  31%      4/13
+   Z->Serge  31%      4/13
+Lukas  vs Norah      1 - 0
+   W->Lukas  38%      5/13
+   Z->Norah  38%      5/13
+Ruben  vs Jonathan      1 - 0
+   W->Ruben  46%      6/13
+   Z->Jonathan  46%      6/13
+Thomas_fout  vs Francesca      1 - 0
+   W->Thomas_fout  54%      7/13
+   Z->Francesca  46%      6/13
+Tiffany  vs Niels      1 - 0
+   W->Tiffany  54%      7/13
+   Z->Niels  46%      6/13
+Adrien  vs Thomas2      1 - 0
+   W->Adrien  62%      8/13
+   Z->Thomas2  54%      7/13
+Jules  vs Victor      1 - 0
+   W->Jules  69%      9/13
+   Z->Victor  62%      8/13
+-------Ronde 13 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Serge  vs Thibaut      1 - 0
+   W->Serge  36%      5/14
+   Z->Thibaut  29%      4/14
+Norah  vs Lukas      1 - 0
+   W->Norah  43%      6/14
+   Z->Lukas  36%      5/14
+Jonathan  vs Ruben      1 - 0
+   W->Jonathan  50%      7/14
+   Z->Ruben  43%      6/14
+Francesca  vs Niels      1 - 0
+   W->Francesca  50%      7/14
+   Z->Niels  43%      6/14
+Thomas2  vs Thomas_fout      1 - 0
+   W->Thomas2  57%      8/14
+   Z->Thomas_fout  50%      7/14
+Victor  vs Tiffany      1 - 0
+   W->Victor  64%      9/14
+   Z->Tiffany  50%      7/14
+Adrien  vs Jules      1 - 0
+   W->Adrien  64%      9/14
+   Z->Jules  64%      9/14
+-------Ronde 14 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Thibaut  vs Serge      1 - 0
+   W->Thibaut  33%      5/15
+   Z->Serge  33%      5/15
+Niels  vs Lukas      1 - 0
+   W->Niels  47%      7/15
+   Z->Lukas  33%      5/15
+Ruben  vs Norah      1 - 0
+   W->Ruben  47%      7/15
+   Z->Norah  40%      6/15
+Jonathan  vs Francesca      1 - 0
+   W->Jonathan  53%      8/15
+   Z->Francesca  47%      7/15
+Thomas_fout  vs Tiffany      1 - 0
+   W->Thomas_fout  53%      8/15
+   Z->Tiffany  47%      7/15
+Thomas2  vs Adrien      1 - 0
+   W->Thomas2  60%      9/15
+   Z->Adrien  60%      9/15
+Jules  vs Victor      1 - 0
+   W->Jules  67%      10/15
+   Z->Victor  60%      9/15
+-------Ronde 15 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Serge  vs Lukas      1 - 0
+   W->Serge  38%      6/16
+   Z->Lukas  31%      5/16
+Thibaut  vs Ruben      1 - 0
+   W->Thibaut  38%      6/16
+   Z->Ruben  44%      7/16
+Norah  vs Francesca      1 - 0
+   W->Norah  44%      7/16
+   Z->Francesca  44%      7/16
+Tiffany  vs Niels      1 - 0
+   W->Tiffany  50%      8/16
+   Z->Niels  44%      7/16
+Jonathan  vs Thomas2      1 - 0
+   W->Jonathan  56%      9/16
+   Z->Thomas2  56%      9/16
+Victor  vs Thomas_fout      1 - 0
+   W->Victor  63%      10/16
+   Z->Thomas_fout  50%      8/16
+Adrien  vs Jules      1 - 0
+   W->Adrien  63%      10/16
+   Z->Jules  63%      10/16
+-------Ronde 16 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Lukas  vs Serge      1 - 0
+   W->Lukas  35%      6/17
+   Z->Serge  35%      6/17
+Ruben  vs Thibaut      1 - 0
+   W->Ruben  47%      8/17
+   Z->Thibaut  35%      6/17
+Francesca  vs Niels      1 - 0
+   W->Francesca  47%      8/17
+   Z->Niels  41%      7/17
+Thomas_fout  vs Norah      1 - 0
+   W->Thomas_fout  53%      9/17
+   Z->Norah  41%      7/17
+Tiffany  vs Jonathan      1 - 0
+   W->Tiffany  53%      9/17
+   Z->Jonathan  53%      9/17
+Thomas2  vs Adrien      1 - 0
+   W->Thomas2  59%      10/17
+   Z->Adrien  59%      10/17
+Jules  vs Victor      1 - 0
+   W->Jules  65%      11/17
+   Z->Victor  59%      10/17
+-------Ronde 17 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Serge  vs Lukas      1 - 0
+   W->Serge  39%      7/18
+   Z->Lukas  33%      6/18
+Niels  vs Thibaut      1 - 0
+   W->Niels  44%      8/18
+   Z->Thibaut  33%      6/18
+Norah  vs Ruben      1 - 0
+   W->Norah  44%      8/18
+   Z->Ruben  44%      8/18
+Francesca  vs Jonathan      1 - 0
+   W->Francesca  50%      9/18
+   Z->Jonathan  50%      9/18
+Thomas_fout  vs Tiffany      1 - 0
+   W->Thomas_fout  56%      10/18
+   Z->Tiffany  50%      9/18
+Adrien  vs Thomas2      1 - 0
+   W->Adrien  61%      11/18
+   Z->Thomas2  56%      10/18
+Victor  vs Jules      1 - 0
+   W->Victor  61%      11/18
+   Z->Jules  61%      11/18
+-------Ronde 18 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Lukas  vs Thibaut      1 - 0
+   W->Lukas  37%      7/19
+   Z->Thibaut  32%      6/19
+Serge  vs Niels      1 - 0
+   W->Serge  42%      8/19
+   Z->Niels  42%      8/19
+Ruben  vs Norah      1 - 0
+   W->Ruben  47%      9/19
+   Z->Norah  42%      8/19
+Jonathan  vs Francesca      1 - 0
+   W->Jonathan  53%      10/19
+   Z->Francesca  47%      9/19
+Tiffany  vs Thomas_fout      1 - 0
+   W->Tiffany  53%      10/19
+   Z->Thomas_fout  53%      10/19
+Thomas2  vs Adrien      1 - 0
+   W->Thomas2  58%      11/19
+   Z->Adrien  58%      11/19
+Jules  vs Victor      1 - 0
+   W->Jules  63%      12/19
+   Z->Victor  58%      11/19
+-------Ronde 19 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Thibaut  vs Lukas      1 - 0
+   W->Thibaut  35%      7/20
+   Z->Lukas  35%      7/20
+Niels  vs Serge      1 - 0
+   W->Niels  45%      9/20
+   Z->Serge  40%      8/20
+Norah  vs Ruben      1 - 0
+   W->Norah  45%      9/20
+   Z->Ruben  45%      9/20
+Francesca  vs Jonathan      1 - 0
+   W->Francesca  50%      10/20
+   Z->Jonathan  50%      10/20
+Thomas_fout  vs Tiffany      1 - 0
+   W->Thomas_fout  55%      11/20
+   Z->Tiffany  50%      10/20
+Adrien  vs Thomas2      1 - 0
+   W->Adrien  60%      12/20
+   Z->Thomas2  55%      11/20
+Victor  vs Jules      1 - 0
+   W->Victor  60%      12/20
+   Z->Jules  60%      12/20
+-------Ronde 20 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Lukas  vs Thibaut      1 - 0
+   W->Lukas  38%      8/21
+   Z->Thibaut  33%      7/21
+Serge  vs Niels      1 - 0
+   W->Serge  43%      9/21
+   Z->Niels  43%      9/21
+Ruben  vs Norah      1 - 0
+   W->Ruben  48%      10/21
+   Z->Norah  43%      9/21
+Jonathan  vs Francesca      1 - 0
+   W->Jonathan  52%      11/21
+   Z->Francesca  48%      10/21
+Tiffany  vs Thomas_fout      1 - 0
+   W->Tiffany  52%      11/21
+   Z->Thomas_fout  52%      11/21
+Thomas2  vs Adrien      1 - 0
+   W->Thomas2  57%      12/21
+   Z->Adrien  57%      12/21
+Jules  vs Victor      1 - 0
+   W->Jules  62%      13/21
+   Z->Victor  57%      12/21
+-------Ronde 21 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Thibaut  vs Lukas      1 - 0
+   W->Thibaut  36%      8/22
+   Z->Lukas  36%      8/22
+Niels  vs Serge      1 - 0
+   W->Niels  45%      10/22
+   Z->Serge  41%      9/22
+Norah  vs Ruben      1 - 0
+   W->Norah  45%      10/22
+   Z->Ruben  45%      10/22
+Francesca  vs Jonathan      1 - 0
+   W->Francesca  50%      11/22
+   Z->Jonathan  50%      11/22
+Thomas_fout  vs Tiffany      1 - 0
+   W->Thomas_fout  55%      12/22
+   Z->Tiffany  50%      11/22
+Adrien  vs Thomas2      1 - 0
+   W->Adrien  59%      13/22
+   Z->Thomas2  55%      12/22
+Victor  vs Jules      1 - 0
+   W->Victor  59%      13/22
+   Z->Jules  59%      13/22
+-------Ronde 22 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Lukas  vs Thibaut      1 - 0
+   W->Lukas  39%      9/23
+   Z->Thibaut  35%      8/23
+Serge  vs Niels      1 - 0
+   W->Serge  43%      10/23
+   Z->Niels  43%      10/23
+Ruben  vs Norah      1 - 0
+   W->Ruben  48%      11/23
+   Z->Norah  43%      10/23
+Jonathan  vs Francesca      1 - 0
+   W->Jonathan  52%      12/23
+   Z->Francesca  48%      11/23
+Tiffany  vs Thomas_fout      1 - 0
+   W->Tiffany  52%      12/23
+   Z->Thomas_fout  52%      12/23
+Thomas2  vs Adrien      1 - 0
+   W->Thomas2  57%      13/23
+   Z->Adrien  57%      13/23
+Jules  vs Victor      1 - 0
+   W->Jules  61%      14/23
+   Z->Victor  57%      13/23
+-------Ronde 23 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Thibaut  vs Lukas      1 - 0
+   W->Thibaut  38%      9/24
+   Z->Lukas  38%      9/24
+Niels  vs Serge      1 - 0
+   W->Niels  46%      11/24
+   Z->Serge  42%      10/24
+Norah  vs Ruben      1 - 0
+   W->Norah  46%      11/24
+   Z->Ruben  46%      11/24
+Francesca  vs Jonathan      1 - 0
+   W->Francesca  50%      12/24
+   Z->Jonathan  50%      12/24
+Thomas_fout  vs Tiffany      1 - 0
+   W->Thomas_fout  54%      13/24
+   Z->Tiffany  50%      12/24
+Adrien  vs Thomas2      1 - 0
+   W->Adrien  58%      14/24
+   Z->Thomas2  54%      13/24
+Victor  vs Jules      1 - 0
+   W->Victor  58%      14/24
+   Z->Jules  58%      14/24
+-------Ronde 24 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Lukas  vs Thibaut      1 - 0
+   W->Lukas  40%      10/25
+   Z->Thibaut  36%      9/25
+Serge  vs Niels      1 - 0
+   W->Serge  44%      11/25
+   Z->Niels  44%      11/25
+Ruben  vs Norah      1 - 0
+   W->Ruben  48%      12/25
+   Z->Norah  44%      11/25
+Jonathan  vs Francesca      1 - 0
+   W->Jonathan  52%      13/25
+   Z->Francesca  48%      12/25
+Tiffany  vs Thomas_fout      1 - 0
+   W->Tiffany  52%      13/25
+   Z->Thomas_fout  52%      13/25
+Thomas2  vs Adrien      1 - 0
+   W->Thomas2  56%      14/25
+   Z->Adrien  56%      14/25
+Jules  vs Victor      1 - 0
+   W->Jules  60%      15/25
+   Z->Victor  56%      14/25
+-------Ronde 25 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Thibaut  vs Lukas      1 - 0
+   W->Thibaut  38%      10/26
+   Z->Lukas  38%      10/26
+Niels  vs Serge      1 - 0
+   W->Niels  46%      12/26
+   Z->Serge  42%      11/26
+Norah  vs Ruben      1 - 0
+   W->Norah  46%      12/26
+   Z->Ruben  46%      12/26
+Francesca  vs Jonathan      1 - 0
+   W->Francesca  50%      13/26
+   Z->Jonathan  50%      13/26
+Thomas_fout  vs Tiffany      1 - 0
+   W->Thomas_fout  54%      14/26
+   Z->Tiffany  50%      13/26
+Adrien  vs Thomas2      1 - 0
+   W->Adrien  58%      15/26
+   Z->Thomas2  54%      14/26
+Victor  vs Jules      1 - 0
+   W->Victor  58%      15/26
+   Z->Jules  58%      15/26
+-------Ronde 26 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Lukas  vs Thibaut      1 - 0
+   W->Lukas  41%      11/27
+   Z->Thibaut  37%      10/27
+Serge  vs Niels      1 - 0
+   W->Serge  44%      12/27
+   Z->Niels  44%      12/27
+Ruben  vs Norah      1 - 0
+   W->Ruben  48%      13/27
+   Z->Norah  44%      12/27
+Jonathan  vs Francesca      1 - 0
+   W->Jonathan  52%      14/27
+   Z->Francesca  48%      13/27
+Tiffany  vs Thomas_fout      1 - 0
+   W->Tiffany  52%      14/27
+   Z->Thomas_fout  52%      14/27
+Thomas2  vs Adrien      1 - 0
+   W->Thomas2  56%      15/27
+   Z->Adrien  56%      15/27
+Jules  vs Victor      1 - 0
+   W->Jules  59%      16/27
+   Z->Victor  56%      15/27
+-------Ronde 27 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Thibaut  vs Lukas      1 - 0
+   W->Thibaut  39%      11/28
+   Z->Lukas  39%      11/28
+Niels  vs Serge      1 - 0
+   W->Niels  46%      13/28
+   Z->Serge  43%      12/28
+Norah  vs Ruben      1 - 0
+   W->Norah  46%      13/28
+   Z->Ruben  46%      13/28
+Francesca  vs Jonathan      1 - 0
+   W->Francesca  50%      14/28
+   Z->Jonathan  50%      14/28
+Thomas_fout  vs Tiffany      1 - 0
+   W->Thomas_fout  54%      15/28
+   Z->Tiffany  50%      14/28
+Adrien  vs Thomas2      1 - 0
+   W->Adrien  57%      16/28
+   Z->Thomas2  54%      15/28
+Victor  vs Jules      1 - 0
+   W->Victor  57%      16/28
+   Z->Jules  57%      16/28
+-------Ronde 28 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Lukas  vs Thibaut      1 - 0
+   W->Lukas  41%      12/29
+   Z->Thibaut  38%      11/29
+Serge  vs Niels      1 - 0
+   W->Serge  45%      13/29
+   Z->Niels  45%      13/29
+Ruben  vs Norah      1 - 0
+   W->Ruben  48%      14/29
+   Z->Norah  45%      13/29
+Jonathan  vs Francesca      1 - 0
+   W->Jonathan  52%      15/29
+   Z->Francesca  48%      14/29
+Tiffany  vs Thomas_fout      1 - 0
+   W->Tiffany  52%      15/29
+   Z->Thomas_fout  52%      15/29
+Thomas2  vs Adrien      1 - 0
+   W->Thomas2  55%      16/29
+   Z->Adrien  55%      16/29
+Jules  vs Victor      1 - 0
+   W->Jules  59%      17/29
+   Z->Victor  55%      16/29
+-------Ronde 29 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Thibaut  vs Lukas      1 - 0
+   W->Thibaut  40%      12/30
+   Z->Lukas  40%      12/30
+Niels  vs Serge      1 - 0
+   W->Niels  47%      14/30
+   Z->Serge  43%      13/30
+Norah  vs Ruben      1 - 0
+   W->Norah  47%      14/30
+   Z->Ruben  47%      14/30
+Francesca  vs Jonathan      1 - 0
+   W->Francesca  50%      15/30
+   Z->Jonathan  50%      15/30
+Thomas_fout  vs Tiffany      1 - 0
+   W->Thomas_fout  53%      16/30
+   Z->Tiffany  50%      15/30
+Adrien  vs Thomas2      1 - 0
+   W->Adrien  57%      17/30
+   Z->Thomas2  53%      16/30
+Victor  vs Jules      1 - 0
+   W->Victor  57%      17/30
+   Z->Jules  57%      17/30
+-------Ronde 30 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Lukas  vs Thibaut      1 - 0
+   W->Lukas  42%      13/31
+   Z->Thibaut  39%      12/31
+Serge  vs Niels      1 - 0
+   W->Serge  45%      14/31
+   Z->Niels  45%      14/31
+Ruben  vs Norah      1 - 0
+   W->Ruben  48%      15/31
+   Z->Norah  45%      14/31
+Jonathan  vs Francesca      1 - 0
+   W->Jonathan  52%      16/31
+   Z->Francesca  48%      15/31
+Tiffany  vs Thomas_fout      1 - 0
+   W->Tiffany  52%      16/31
+   Z->Thomas_fout  52%      16/31
+Thomas2  vs Adrien      1 - 0
+   W->Thomas2  55%      17/31
+   Z->Adrien  55%      17/31
+Jules  vs Victor      1 - 0
+   W->Jules  58%      18/31
+   Z->Victor  55%      17/31
+-------Ronde 31 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Thibaut  vs Lukas      1 - 0
+   W->Thibaut  41%      13/32
+   Z->Lukas  41%      13/32
+Niels  vs Serge      1 - 0
+   W->Niels  47%      15/32
+   Z->Serge  44%      14/32
+Norah  vs Ruben      1 - 0
+   W->Norah  47%      15/32
+   Z->Ruben  47%      15/32
+Francesca  vs Jonathan      1 - 0
+   W->Francesca  50%      16/32
+   Z->Jonathan  50%      16/32
+Thomas_fout  vs Tiffany      1 - 0
+   W->Thomas_fout  53%      17/32
+   Z->Tiffany  50%      16/32
+Adrien  vs Thomas2      1 - 0
+   W->Adrien  56%      18/32
+   Z->Thomas2  53%      17/32
+Victor  vs Jules      1 - 0
+   W->Victor  56%      18/32
+   Z->Jules  56%      18/32
+-------Ronde 32 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Lukas  vs Thibaut      1 - 0
+   W->Lukas  42%      14/33
+   Z->Thibaut  39%      13/33
+Serge  vs Niels      1 - 0
+   W->Serge  45%      15/33
+   Z->Niels  45%      15/33
+Ruben  vs Norah      1 - 0
+   W->Ruben  48%      16/33
+   Z->Norah  45%      15/33
+Jonathan  vs Francesca      1 - 0
+   W->Jonathan  52%      17/33
+   Z->Francesca  48%      16/33
+Tiffany  vs Thomas_fout      1 - 0
+   W->Tiffany  52%      17/33
+   Z->Thomas_fout  52%      17/33
+Thomas2  vs Adrien      1 - 0
+   W->Thomas2  55%      18/33
+   Z->Adrien  55%      18/33
+Jules  vs Victor      1 - 0
+   W->Jules  58%      19/33
+   Z->Victor  55%      18/33
+-------Ronde 33 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Thibaut  vs Lukas      1 - 0
+   W->Thibaut  41%      14/34
+   Z->Lukas  41%      14/34
+Niels  vs Serge      1 - 0
+   W->Niels  47%      16/34
+   Z->Serge  44%      15/34
+Norah  vs Ruben      1 - 0
+   W->Norah  47%      16/34
+   Z->Ruben  47%      16/34
+Francesca  vs Jonathan      1 - 0
+   W->Francesca  50%      17/34
+   Z->Jonathan  50%      17/34
+Thomas_fout  vs Tiffany      1 - 0
+   W->Thomas_fout  53%      18/34
+   Z->Tiffany  50%      17/34
+Adrien  vs Thomas2      1 - 0
+   W->Adrien  56%      19/34
+   Z->Thomas2  53%      18/34
+Victor  vs Jules      1 - 0
+   W->Victor  56%      19/34
+   Z->Jules  56%      19/34
+-------Ronde 34 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Lukas  vs Thibaut      1 - 0
+   W->Lukas  43%      15/35
+   Z->Thibaut  40%      14/35
+Serge  vs Niels      1 - 0
+   W->Serge  46%      16/35
+   Z->Niels  46%      16/35
+Ruben  vs Norah      1 - 0
+   W->Ruben  49%      17/35
+   Z->Norah  46%      16/35
+Jonathan  vs Francesca      1 - 0
+   W->Jonathan  51%      18/35
+   Z->Francesca  49%      17/35
+Tiffany  vs Thomas_fout      1 - 0
+   W->Tiffany  51%      18/35
+   Z->Thomas_fout  51%      18/35
+Thomas2  vs Adrien      1 - 0
+   W->Thomas2  54%      19/35
+   Z->Adrien  54%      19/35
+Jules  vs Victor      1 - 0
+   W->Jules  57%      20/35
+   Z->Victor  54%      19/35
+-------Ronde 35 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Thibaut  vs Lukas      1 - 0
+   W->Thibaut  42%      15/36
+   Z->Lukas  42%      15/36
+Niels  vs Serge      1 - 0
+   W->Niels  47%      17/36
+   Z->Serge  44%      16/36
+Norah  vs Ruben      1 - 0
+   W->Norah  47%      17/36
+   Z->Ruben  47%      17/36
+Francesca  vs Jonathan      1 - 0
+   W->Francesca  50%      18/36
+   Z->Jonathan  50%      18/36
+Thomas_fout  vs Tiffany      1 - 0
+   W->Thomas_fout  53%      19/36
+   Z->Tiffany  50%      18/36
+Adrien  vs Thomas2      1 - 0
+   W->Adrien  56%      20/36
+   Z->Thomas2  53%      19/36
+Victor  vs Jules      1 - 0
+   W->Victor  56%      20/36
+   Z->Jules  56%      20/36
+-------Ronde 36 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Lukas  vs Thibaut      1 - 0
+   W->Lukas  43%      16/37
+   Z->Thibaut  41%      15/37
+Serge  vs Niels      1 - 0
+   W->Serge  46%      17/37
+   Z->Niels  46%      17/37
+Ruben  vs Norah      1 - 0
+   W->Ruben  49%      18/37
+   Z->Norah  46%      17/37
+Jonathan  vs Francesca      1 - 0
+   W->Jonathan  51%      19/37
+   Z->Francesca  49%      18/37
+Tiffany  vs Thomas_fout      1 - 0
+   W->Tiffany  51%      19/37
+   Z->Thomas_fout  51%      19/37
+Thomas2  vs Adrien      1 - 0
+   W->Thomas2  54%      20/37
+   Z->Adrien  54%      20/37
+Jules  vs Victor      1 - 0
+   W->Jules  57%      21/37
+   Z->Victor  54%      20/37
+-------Ronde 37 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Thibaut  vs Lukas      1 - 0
+   W->Thibaut  42%      16/38
+   Z->Lukas  42%      16/38
+Niels  vs Serge      1 - 0
+   W->Niels  47%      18/38
+   Z->Serge  45%      17/38
+Norah  vs Ruben      1 - 0
+   W->Norah  47%      18/38
+   Z->Ruben  47%      18/38
+Francesca  vs Jonathan      1 - 0
+   W->Francesca  50%      19/38
+   Z->Jonathan  50%      19/38
+Thomas_fout  vs Tiffany      1 - 0
+   W->Thomas_fout  53%      20/38
+   Z->Tiffany  50%      19/38
+Adrien  vs Thomas2      1 - 0
+   W->Adrien  55%      21/38
+   Z->Thomas2  53%      20/38
+Victor  vs Jules      1 - 0
+   W->Victor  55%      21/38
+   Z->Jules  55%      21/38
+-------Ronde 38 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Lukas  vs Thibaut      1 - 0
+   W->Lukas  44%      17/39
+   Z->Thibaut  41%      16/39
+Serge  vs Niels      1 - 0
+   W->Serge  46%      18/39
+   Z->Niels  46%      18/39
+Ruben  vs Norah      1 - 0
+   W->Ruben  49%      19/39
+   Z->Norah  46%      18/39
+Jonathan  vs Francesca      1 - 0
+   W->Jonathan  51%      20/39
+   Z->Francesca  49%      19/39
+Tiffany  vs Thomas_fout      1 - 0
+   W->Tiffany  51%      20/39
+   Z->Thomas_fout  51%      20/39
+Thomas2  vs Adrien      1 - 0
+   W->Thomas2  54%      21/39
+   Z->Adrien  54%      21/39
+Jules  vs Victor      1 - 0
+   W->Jules  56%      22/39
+   Z->Victor  54%      21/39
+-------Ronde 39 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Thibaut  vs Lukas      1 - 0
+   W->Thibaut  43%      17/40
+   Z->Lukas  43%      17/40
+Niels  vs Serge      1 - 0
+   W->Niels  48%      19/40
+   Z->Serge  45%      18/40
+Norah  vs Ruben      1 - 0
+   W->Norah  48%      19/40
+   Z->Ruben  48%      19/40
+Francesca  vs Jonathan      1 - 0
+   W->Francesca  50%      20/40
+   Z->Jonathan  50%      20/40
+Thomas_fout  vs Tiffany      1 - 0
+   W->Thomas_fout  53%      21/40
+   Z->Tiffany  50%      20/40
+Adrien  vs Thomas2      1 - 0
+   W->Adrien  55%      22/40
+   Z->Thomas2  53%      21/40
+Victor  vs Jules      1 - 0
+   W->Victor  55%      22/40
+   Z->Jules  55%      22/40
+-------Ronde 40 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Lukas  vs Thibaut      1 - 0
+   W->Lukas  44%      18/41
+   Z->Thibaut  41%      17/41
+Serge  vs Niels      1 - 0
+   W->Serge  46%      19/41
+   Z->Niels  46%      19/41
+Ruben  vs Norah      1 - 0
+   W->Ruben  49%      20/41
+   Z->Norah  46%      19/41
+Jonathan  vs Francesca      1 - 0
+   W->Jonathan  51%      21/41
+   Z->Francesca  49%      20/41
+Tiffany  vs Thomas_fout      1 - 0
+   W->Tiffany  51%      21/41
+   Z->Thomas_fout  51%      21/41
+Thomas2  vs Adrien      1 - 0
+   W->Thomas2  54%      22/41
+   Z->Adrien  54%      22/41
+Jules  vs Victor      1 - 0
+   W->Jules  56%      23/41
+   Z->Victor  54%      22/41
+-------Ronde 41 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Thibaut  vs Lukas      1 - 0
+   W->Thibaut  43%      18/42
+   Z->Lukas  43%      18/42
+Niels  vs Serge      1 - 0
+   W->Niels  48%      20/42
+   Z->Serge  45%      19/42
+Norah  vs Ruben      1 - 0
+   W->Norah  48%      20/42
+   Z->Ruben  48%      20/42
+Francesca  vs Jonathan      1 - 0
+   W->Francesca  50%      21/42
+   Z->Jonathan  50%      21/42
+Thomas_fout  vs Tiffany      1 - 0
+   W->Thomas_fout  52%      22/42
+   Z->Tiffany  50%      21/42
+Adrien  vs Thomas2      1 - 0
+   W->Adrien  55%      23/42
+   Z->Thomas2  52%      22/42
+Victor  vs Jules      1 - 0
+   W->Victor  55%      23/42
+   Z->Jules  55%      23/42
+-------Ronde 42 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Lukas  vs Thibaut      1 - 0
+   W->Lukas  44%      19/43
+   Z->Thibaut  42%      18/43
+Serge  vs Niels      1 - 0
+   W->Serge  47%      20/43
+   Z->Niels  47%      20/43
+Ruben  vs Norah      1 - 0
+   W->Ruben  49%      21/43
+   Z->Norah  47%      20/43
+Jonathan  vs Francesca      1 - 0
+   W->Jonathan  51%      22/43
+   Z->Francesca  49%      21/43
+Tiffany  vs Thomas_fout      1 - 0
+   W->Tiffany  51%      22/43
+   Z->Thomas_fout  51%      22/43
+Thomas2  vs Adrien      1 - 0
+   W->Thomas2  53%      23/43
+   Z->Adrien  53%      23/43
+Jules  vs Victor      1 - 0
+   W->Jules  56%      24/43
+   Z->Victor  53%      23/43
+-------Ronde 43 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Thibaut  vs Lukas      1 - 0
+   W->Thibaut  43%      19/44
+   Z->Lukas  43%      19/44
+Niels  vs Serge      1 - 0
+   W->Niels  48%      21/44
+   Z->Serge  45%      20/44
+Norah  vs Ruben      1 - 0
+   W->Norah  48%      21/44
+   Z->Ruben  48%      21/44
+Francesca  vs Jonathan      1 - 0
+   W->Francesca  50%      22/44
+   Z->Jonathan  50%      22/44
+Thomas_fout  vs Tiffany      1 - 0
+   W->Thomas_fout  52%      23/44
+   Z->Tiffany  50%      22/44
+Adrien  vs Thomas2      1 - 0
+   W->Adrien  55%      24/44
+   Z->Thomas2  52%      23/44
+Victor  vs Jules      1 - 0
+   W->Victor  55%      24/44
+   Z->Jules  55%      24/44
+-------Ronde 44 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Lukas  vs Thibaut      1 - 0
+   W->Lukas  44%      20/45
+   Z->Thibaut  42%      19/45
+Serge  vs Niels      1 - 0
+   W->Serge  47%      21/45
+   Z->Niels  47%      21/45
+Ruben  vs Norah      1 - 0
+   W->Ruben  49%      22/45
+   Z->Norah  47%      21/45
+Jonathan  vs Francesca      1 - 0
+   W->Jonathan  51%      23/45
+   Z->Francesca  49%      22/45
+Tiffany  vs Thomas_fout      1 - 0
+   W->Tiffany  51%      23/45
+   Z->Thomas_fout  51%      23/45
+Thomas2  vs Adrien      1 - 0
+   W->Thomas2  53%      24/45
+   Z->Adrien  53%      24/45
+Jules  vs Victor      1 - 0
+   W->Jules  56%      25/45
+   Z->Victor  53%      24/45
+-------Ronde 45 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Thibaut  vs Lukas      1 - 0
+   W->Thibaut  43%      20/46
+   Z->Lukas  43%      20/46
+Niels  vs Serge      1 - 0
+   W->Niels  48%      22/46
+   Z->Serge  46%      21/46
+Norah  vs Ruben      1 - 0
+   W->Norah  48%      22/46
+   Z->Ruben  48%      22/46
+Francesca  vs Jonathan      1 - 0
+   W->Francesca  50%      23/46
+   Z->Jonathan  50%      23/46
+Thomas_fout  vs Tiffany      1 - 0
+   W->Thomas_fout  52%      24/46
+   Z->Tiffany  50%      23/46
+Adrien  vs Thomas2      1 - 0
+   W->Adrien  54%      25/46
+   Z->Thomas2  52%      24/46
+Victor  vs Jules      1 - 0
+   W->Victor  54%      25/46
+   Z->Jules  54%      25/46
+-------Ronde 46 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Lukas  vs Thibaut      1 - 0
+   W->Lukas  45%      21/47
+   Z->Thibaut  43%      20/47
+Serge  vs Niels      1 - 0
+   W->Serge  47%      22/47
+   Z->Niels  47%      22/47
+Ruben  vs Norah      1 - 0
+   W->Ruben  49%      23/47
+   Z->Norah  47%      22/47
+Jonathan  vs Francesca      1 - 0
+   W->Jonathan  51%      24/47
+   Z->Francesca  49%      23/47
+Tiffany  vs Thomas_fout      1 - 0
+   W->Tiffany  51%      24/47
+   Z->Thomas_fout  51%      24/47
+Thomas2  vs Adrien      1 - 0
+   W->Thomas2  53%      25/47
+   Z->Adrien  53%      25/47
+Jules  vs Victor      1 - 0
+   W->Jules  55%      26/47
+   Z->Victor  53%      25/47
+-------Ronde 47 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Thibaut  vs Lukas      1 - 0
+   W->Thibaut  44%      21/48
+   Z->Lukas  44%      21/48
+Niels  vs Serge      1 - 0
+   W->Niels  48%      23/48
+   Z->Serge  46%      22/48
+Norah  vs Ruben      1 - 0
+   W->Norah  48%      23/48
+   Z->Ruben  48%      23/48
+Francesca  vs Jonathan      1 - 0
+   W->Francesca  50%      24/48
+   Z->Jonathan  50%      24/48
+Thomas_fout  vs Tiffany      1 - 0
+   W->Thomas_fout  52%      25/48
+   Z->Tiffany  50%      24/48
+Adrien  vs Thomas2      1 - 0
+   W->Adrien  54%      26/48
+   Z->Thomas2  52%      25/48
+Victor  vs Jules      1 - 0
+   W->Victor  54%      26/48
+   Z->Jules  54%      26/48
+-------Ronde 48 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Lukas  vs Thibaut      1 - 0
+   W->Lukas  45%      22/49
+   Z->Thibaut  43%      21/49
+Serge  vs Niels      1 - 0
+   W->Serge  47%      23/49
+   Z->Niels  47%      23/49
+Ruben  vs Norah      1 - 0
+   W->Ruben  49%      24/49
+   Z->Norah  47%      23/49
+Jonathan  vs Francesca      1 - 0
+   W->Jonathan  51%      25/49
+   Z->Francesca  49%      24/49
+Tiffany  vs Thomas_fout      1 - 0
+   W->Tiffany  51%      25/49
+   Z->Thomas_fout  51%      25/49
+Thomas2  vs Adrien      1 - 0
+   W->Thomas2  53%      26/49
+   Z->Adrien  53%      26/49
+Jules  vs Victor      1 - 0
+   W->Jules  55%      27/49
+   Z->Victor  53%      26/49
+-------Ronde 49 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Thibaut  vs Lukas      1 - 0
+   W->Thibaut  44%      22/50
+   Z->Lukas  44%      22/50
+Niels  vs Serge      1 - 0
+   W->Niels  48%      24/50
+   Z->Serge  46%      23/50
+Norah  vs Ruben      1 - 0
+   W->Norah  48%      24/50
+   Z->Ruben  48%      24/50
+Francesca  vs Jonathan      1 - 0
+   W->Francesca  50%      25/50
+   Z->Jonathan  50%      25/50
+Thomas_fout  vs Tiffany      1 - 0
+   W->Thomas_fout  52%      26/50
+   Z->Tiffany  50%      25/50
+Adrien  vs Thomas2      1 - 0
+   W->Adrien  54%      27/50
+   Z->Thomas2  52%      26/50
+Victor  vs Jules      1 - 0
+   W->Victor  54%      27/50
+   Z->Jules  54%      27/50
+-------Ronde 50 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Lukas  vs Thibaut      1 - 0
+   W->Lukas  45%      23/51
+   Z->Thibaut  43%      22/51
+Serge  vs Niels      1 - 0
+   W->Serge  47%      24/51
+   Z->Niels  47%      24/51
+Ruben  vs Norah      1 - 0
+   W->Ruben  49%      25/51
+   Z->Norah  47%      24/51
+Jonathan  vs Francesca      1 - 0
+   W->Jonathan  51%      26/51
+   Z->Francesca  49%      25/51
+Tiffany  vs Thomas_fout      1 - 0
+   W->Tiffany  51%      26/51
+   Z->Thomas_fout  51%      26/51
+Thomas2  vs Adrien      1 - 0
+   W->Thomas2  53%      27/51
+   Z->Adrien  53%      27/51
+Jules  vs Victor      1 - 0
+   W->Jules  55%      28/51
+   Z->Victor  53%      27/51
+-------Ronde 51 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Thibaut  vs Lukas      1 - 0
+   W->Thibaut  44%      23/52
+   Z->Lukas  44%      23/52
+Niels  vs Serge      1 - 0
+   W->Niels  48%      25/52
+   Z->Serge  46%      24/52
+Norah  vs Ruben      1 - 0
+   W->Norah  48%      25/52
+   Z->Ruben  48%      25/52
+Francesca  vs Jonathan      1 - 0
+   W->Francesca  50%      26/52
+   Z->Jonathan  50%      26/52
+Thomas_fout  vs Tiffany      1 - 0
+   W->Thomas_fout  52%      27/52
+   Z->Tiffany  50%      26/52
+Adrien  vs Thomas2      1 - 0
+   W->Adrien  54%      28/52
+   Z->Thomas2  52%      27/52
+Victor  vs Jules      1 - 0
+   W->Victor  54%      28/52
+   Z->Jules  54%      28/52
+-------Ronde 52 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Lukas  vs Thibaut      1 - 0
+   W->Lukas  45%      24/53
+   Z->Thibaut  43%      23/53
+Serge  vs Niels      1 - 0
+   W->Serge  47%      25/53
+   Z->Niels  47%      25/53
+Ruben  vs Norah      1 - 0
+   W->Ruben  49%      26/53
+   Z->Norah  47%      25/53
+Jonathan  vs Francesca      1 - 0
+   W->Jonathan  51%      27/53
+   Z->Francesca  49%      26/53
+Tiffany  vs Thomas_fout      1 - 0
+   W->Tiffany  51%      27/53
+   Z->Thomas_fout  51%      27/53
+Thomas2  vs Adrien      1 - 0
+   W->Thomas2  53%      28/53
+   Z->Adrien  53%      28/53
+Jules  vs Victor      1 - 0
+   W->Jules  55%      29/53
+   Z->Victor  53%      28/53
+-------Ronde 53 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Thibaut  vs Lukas      1 - 0
+   W->Thibaut  44%      24/54
+   Z->Lukas  44%      24/54
+Niels  vs Serge      1 - 0
+   W->Niels  48%      26/54
+   Z->Serge  46%      25/54
+Norah  vs Ruben      1 - 0
+   W->Norah  48%      26/54
+   Z->Ruben  48%      26/54
+Francesca  vs Jonathan      1 - 0
+   W->Francesca  50%      27/54
+   Z->Jonathan  50%      27/54
+Thomas_fout  vs Tiffany      1 - 0
+   W->Thomas_fout  52%      28/54
+   Z->Tiffany  50%      27/54
+Adrien  vs Thomas2      1 - 0
+   W->Adrien  54%      29/54
+   Z->Thomas2  52%      28/54
+Victor  vs Jules      1 - 0
+   W->Victor  54%      29/54
+   Z->Jules  54%      29/54
+-------Ronde 54 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Lukas  vs Thibaut      1 - 0
+   W->Lukas  45%      25/55
+   Z->Thibaut  44%      24/55
+Serge  vs Niels      1 - 0
+   W->Serge  47%      26/55
+   Z->Niels  47%      26/55
+Ruben  vs Norah      1 - 0
+   W->Ruben  49%      27/55
+   Z->Norah  47%      26/55
+Jonathan  vs Francesca      1 - 0
+   W->Jonathan  51%      28/55
+   Z->Francesca  49%      27/55
+Tiffany  vs Thomas_fout      1 - 0
+   W->Tiffany  51%      28/55
+   Z->Thomas_fout  51%      28/55
+Thomas2  vs Adrien      1 - 0
+   W->Thomas2  53%      29/55
+   Z->Adrien  53%      29/55
+Jules  vs Victor      1 - 0
+   W->Jules  55%      30/55
+   Z->Victor  53%      29/55
+-------Ronde 55 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Thibaut  vs Lukas      1 - 0
+   W->Thibaut  45%      25/56
+   Z->Lukas  45%      25/56
+Niels  vs Serge      1 - 0
+   W->Niels  48%      27/56
+   Z->Serge  46%      26/56
+Norah  vs Ruben      1 - 0
+   W->Norah  48%      27/56
+   Z->Ruben  48%      27/56
+Francesca  vs Jonathan      1 - 0
+   W->Francesca  50%      28/56
+   Z->Jonathan  50%      28/56
+Thomas_fout  vs Tiffany      1 - 0
+   W->Thomas_fout  52%      29/56
+   Z->Tiffany  50%      28/56
+Adrien  vs Thomas2      1 - 0
+   W->Adrien  54%      30/56
+   Z->Thomas2  52%      29/56
+Victor  vs Jules      1 - 0
+   W->Victor  54%      30/56
+   Z->Jules  54%      30/56
+-------Ronde 56 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Lukas  vs Thibaut      1 - 0
+   W->Lukas  46%      26/57
+   Z->Thibaut  44%      25/57
+Serge  vs Niels      1 - 0
+   W->Serge  47%      27/57
+   Z->Niels  47%      27/57
+Ruben  vs Norah      1 - 0
+   W->Ruben  49%      28/57
+   Z->Norah  47%      27/57
+Jonathan  vs Francesca      1 - 0
+   W->Jonathan  51%      29/57
+   Z->Francesca  49%      28/57
+Tiffany  vs Thomas_fout      1 - 0
+   W->Tiffany  51%      29/57
+   Z->Thomas_fout  51%      29/57
+Thomas2  vs Adrien      1 - 0
+   W->Thomas2  53%      30/57
+   Z->Adrien  53%      30/57
+Jules  vs Victor      1 - 0
+   W->Jules  54%      31/57
+   Z->Victor  53%      30/57
+-------Ronde 57 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Thibaut  vs Lukas      1 - 0
+   W->Thibaut  45%      26/58
+   Z->Lukas  45%      26/58
+Niels  vs Serge      1 - 0
+   W->Niels  48%      28/58
+   Z->Serge  47%      27/58
+Norah  vs Ruben      1 - 0
+   W->Norah  48%      28/58
+   Z->Ruben  48%      28/58
+Francesca  vs Jonathan      1 - 0
+   W->Francesca  50%      29/58
+   Z->Jonathan  50%      29/58
+Thomas_fout  vs Tiffany      1 - 0
+   W->Thomas_fout  52%      30/58
+   Z->Tiffany  50%      29/58
+Adrien  vs Thomas2      1 - 0
+   W->Adrien  53%      31/58
+   Z->Thomas2  52%      30/58
+Victor  vs Jules      1 - 0
+   W->Victor  53%      31/58
+   Z->Jules  53%      31/58
+-------Ronde 58 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Lukas  vs Thibaut      1 - 0
+   W->Lukas  46%      27/59
+   Z->Thibaut  44%      26/59
+Serge  vs Niels      1 - 0
+   W->Serge  47%      28/59
+   Z->Niels  47%      28/59
+Ruben  vs Norah      1 - 0
+   W->Ruben  49%      29/59
+   Z->Norah  47%      28/59
+Jonathan  vs Francesca      1 - 0
+   W->Jonathan  51%      30/59
+   Z->Francesca  49%      29/59
+Tiffany  vs Thomas_fout      1 - 0
+   W->Tiffany  51%      30/59
+   Z->Thomas_fout  51%      30/59
+Thomas2  vs Adrien      1 - 0
+   W->Thomas2  53%      31/59
+   Z->Adrien  53%      31/59
+Jules  vs Victor      1 - 0
+   W->Jules  54%      32/59
+   Z->Victor  53%      31/59
+-------Ronde 59 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Thibaut  vs Lukas      1 - 0
+   W->Thibaut  45%      27/60
+   Z->Lukas  45%      27/60
+Niels  vs Serge      1 - 0
+   W->Niels  48%      29/60
+   Z->Serge  47%      28/60
+Norah  vs Ruben      1 - 0
+   W->Norah  48%      29/60
+   Z->Ruben  48%      29/60
+Francesca  vs Jonathan      1 - 0
+   W->Francesca  50%      30/60
+   Z->Jonathan  50%      30/60
+Thomas_fout  vs Tiffany      1 - 0
+   W->Thomas_fout  52%      31/60
+   Z->Tiffany  50%      30/60
+Adrien  vs Thomas2      1 - 0
+   W->Adrien  53%      32/60
+   Z->Thomas2  52%      31/60
+Victor  vs Jules      1 - 0
+   W->Victor  53%      32/60
+   Z->Jules  53%      32/60
+-------Ronde 60 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Lukas  vs Thibaut      1 - 0
+   W->Lukas  46%      28/61
+   Z->Thibaut  44%      27/61
+Serge  vs Niels      1 - 0
+   W->Serge  48%      29/61
+   Z->Niels  48%      29/61
+Ruben  vs Norah      1 - 0
+   W->Ruben  49%      30/61
+   Z->Norah  48%      29/61
+Jonathan  vs Francesca      1 - 0
+   W->Jonathan  51%      31/61
+   Z->Francesca  49%      30/61
+Tiffany  vs Thomas_fout      1 - 0
+   W->Tiffany  51%      31/61
+   Z->Thomas_fout  51%      31/61
+Thomas2  vs Adrien      1 - 0
+   W->Thomas2  52%      32/61
+   Z->Adrien  52%      32/61
+Jules  vs Victor      1 - 0
+   W->Jules  54%      33/61
+   Z->Victor  52%      32/61
+-------Ronde 61 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Thibaut  vs Lukas      1 - 0
+   W->Thibaut  45%      28/62
+   Z->Lukas  45%      28/62
+Niels  vs Serge      1 - 0
+   W->Niels  48%      30/62
+   Z->Serge  47%      29/62
+Norah  vs Ruben      1 - 0
+   W->Norah  48%      30/62
+   Z->Ruben  48%      30/62
+Francesca  vs Jonathan      1 - 0
+   W->Francesca  50%      31/62
+   Z->Jonathan  50%      31/62
+Thomas_fout  vs Tiffany      1 - 0
+   W->Thomas_fout  52%      32/62
+   Z->Tiffany  50%      31/62
+Adrien  vs Thomas2      1 - 0
+   W->Adrien  53%      33/62
+   Z->Thomas2  52%      32/62
+Victor  vs Jules      1 - 0
+   W->Victor  53%      33/62
+   Z->Jules  53%      33/62
+-------Ronde 62 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Lukas  vs Thibaut      1 - 0
+   W->Lukas  46%      29/63
+   Z->Thibaut  44%      28/63
+Serge  vs Niels      1 - 0
+   W->Serge  48%      30/63
+   Z->Niels  48%      30/63
+Ruben  vs Norah      1 - 0
+   W->Ruben  49%      31/63
+   Z->Norah  48%      30/63
+Jonathan  vs Francesca      1 - 0
+   W->Jonathan  51%      32/63
+   Z->Francesca  49%      31/63
+Tiffany  vs Thomas_fout      1 - 0
+   W->Tiffany  51%      32/63
+   Z->Thomas_fout  51%      32/63
+Thomas2  vs Adrien      1 - 0
+   W->Thomas2  52%      33/63
+   Z->Adrien  52%      33/63
+Jules  vs Victor      1 - 0
+   W->Jules  54%      34/63
+   Z->Victor  52%      33/63
+-------Ronde 63 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Thibaut  vs Lukas      1 - 0
+   W->Thibaut  45%      29/64
+   Z->Lukas  45%      29/64
+Niels  vs Serge      1 - 0
+   W->Niels  48%      31/64
+   Z->Serge  47%      30/64
+Norah  vs Ruben      1 - 0
+   W->Norah  48%      31/64
+   Z->Ruben  48%      31/64
+Francesca  vs Jonathan      1 - 0
+   W->Francesca  50%      32/64
+   Z->Jonathan  50%      32/64
+Thomas_fout  vs Tiffany      1 - 0
+   W->Thomas_fout  52%      33/64
+   Z->Tiffany  50%      32/64
+Adrien  vs Thomas2      1 - 0
+   W->Adrien  53%      34/64
+   Z->Thomas2  52%      33/64
+Victor  vs Jules      1 - 0
+   W->Victor  53%      34/64
+   Z->Jules  53%      34/64
+-------Ronde 64 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Lukas  vs Thibaut      1 - 0
+   W->Lukas  46%      30/65
+   Z->Thibaut  45%      29/65
+Serge  vs Niels      1 - 0
+   W->Serge  48%      31/65
+   Z->Niels  48%      31/65
+Ruben  vs Norah      1 - 0
+   W->Ruben  49%      32/65
+   Z->Norah  48%      31/65
+Jonathan  vs Francesca      1 - 0
+   W->Jonathan  51%      33/65
+   Z->Francesca  49%      32/65
+Tiffany  vs Thomas_fout      1 - 0
+   W->Tiffany  51%      33/65
+   Z->Thomas_fout  51%      33/65
+Thomas2  vs Adrien      1 - 0
+   W->Thomas2  52%      34/65
+   Z->Adrien  52%      34/65
+Jules  vs Victor      1 - 0
+   W->Jules  54%      35/65
+   Z->Victor  52%      34/65
+-------Ronde 65 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Thibaut  vs Lukas      1 - 0
+   W->Thibaut  45%      30/66
+   Z->Lukas  45%      30/66
+Niels  vs Serge      1 - 0
+   W->Niels  48%      32/66
+   Z->Serge  47%      31/66
+Norah  vs Ruben      1 - 0
+   W->Norah  48%      32/66
+   Z->Ruben  48%      32/66
+Francesca  vs Jonathan      1 - 0
+   W->Francesca  50%      33/66
+   Z->Jonathan  50%      33/66
+Thomas_fout  vs Tiffany      1 - 0
+   W->Thomas_fout  52%      34/66
+   Z->Tiffany  50%      33/66
+Adrien  vs Thomas2      1 - 0
+   W->Adrien  53%      35/66
+   Z->Thomas2  52%      34/66
+Victor  vs Jules      1 - 0
+   W->Victor  53%      35/66
+   Z->Jules  53%      35/66
+-------Ronde 66 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Lukas  vs Thibaut      1 - 0
+   W->Lukas  46%      31/67
+   Z->Thibaut  45%      30/67
+Serge  vs Niels      1 - 0
+   W->Serge  48%      32/67
+   Z->Niels  48%      32/67
+Ruben  vs Norah      1 - 0
+   W->Ruben  49%      33/67
+   Z->Norah  48%      32/67
+Jonathan  vs Francesca      1 - 0
+   W->Jonathan  51%      34/67
+   Z->Francesca  49%      33/67
+Tiffany  vs Thomas_fout      1 - 0
+   W->Tiffany  51%      34/67
+   Z->Thomas_fout  51%      34/67
+Thomas2  vs Adrien      1 - 0
+   W->Thomas2  52%      35/67
+   Z->Adrien  52%      35/67
+Jules  vs Victor      1 - 0
+   W->Jules  54%      36/67
+   Z->Victor  52%      35/67
+-------Ronde 67 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Thibaut  vs Lukas      1 - 0
+   W->Thibaut  46%      31/68
+   Z->Lukas  46%      31/68
+Niels  vs Serge      1 - 0
+   W->Niels  49%      33/68
+   Z->Serge  47%      32/68
+Norah  vs Ruben      1 - 0
+   W->Norah  49%      33/68
+   Z->Ruben  49%      33/68
+Francesca  vs Jonathan      1 - 0
+   W->Francesca  50%      34/68
+   Z->Jonathan  50%      34/68
+Thomas_fout  vs Tiffany      1 - 0
+   W->Thomas_fout  51%      35/68
+   Z->Tiffany  50%      34/68
+Adrien  vs Thomas2      1 - 0
+   W->Adrien  53%      36/68
+   Z->Thomas2  51%      35/68
+Victor  vs Jules      1 - 0
+   W->Victor  53%      36/68
+   Z->Jules  53%      36/68
+-------Ronde 68 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Lukas  vs Thibaut      1 - 0
+   W->Lukas  46%      32/69
+   Z->Thibaut  45%      31/69
+Serge  vs Niels      1 - 0
+   W->Serge  48%      33/69
+   Z->Niels  48%      33/69
+Ruben  vs Norah      1 - 0
+   W->Ruben  49%      34/69
+   Z->Norah  48%      33/69
+Jonathan  vs Francesca      1 - 0
+   W->Jonathan  51%      35/69
+   Z->Francesca  49%      34/69
+Tiffany  vs Thomas_fout      1 - 0
+   W->Tiffany  51%      35/69
+   Z->Thomas_fout  51%      35/69
+Thomas2  vs Adrien      1 - 0
+   W->Thomas2  52%      36/69
+   Z->Adrien  52%      36/69
+Jules  vs Victor      1 - 0
+   W->Jules  54%      37/69
+   Z->Victor  52%      36/69
+-------Ronde 69 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Thibaut  vs Lukas      1 - 0
+   W->Thibaut  46%      32/70
+   Z->Lukas  46%      32/70
+Niels  vs Serge      1 - 0
+   W->Niels  49%      34/70
+   Z->Serge  47%      33/70
+Norah  vs Ruben      1 - 0
+   W->Norah  49%      34/70
+   Z->Ruben  49%      34/70
+Francesca  vs Jonathan      1 - 0
+   W->Francesca  50%      35/70
+   Z->Jonathan  50%      35/70
+Thomas_fout  vs Tiffany      1 - 0
+   W->Thomas_fout  51%      36/70
+   Z->Tiffany  50%      35/70
+Adrien  vs Thomas2      1 - 0
+   W->Adrien  53%      37/70
+   Z->Thomas2  51%      36/70
+Victor  vs Jules      1 - 0
+   W->Victor  53%      37/70
+   Z->Jules  53%      37/70
+-------Ronde 70 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Lukas  vs Thibaut      1 - 0
+   W->Lukas  46%      33/71
+   Z->Thibaut  45%      32/71
+Serge  vs Niels      1 - 0
+   W->Serge  48%      34/71
+   Z->Niels  48%      34/71
+Ruben  vs Norah      1 - 0
+   W->Ruben  49%      35/71
+   Z->Norah  48%      34/71
+Jonathan  vs Francesca      1 - 0
+   W->Jonathan  51%      36/71
+   Z->Francesca  49%      35/71
+Tiffany  vs Thomas_fout      1 - 0
+   W->Tiffany  51%      36/71
+   Z->Thomas_fout  51%      36/71
+Thomas2  vs Adrien      1 - 0
+   W->Thomas2  52%      37/71
+   Z->Adrien  52%      37/71
+Jules  vs Victor      1 - 0
+   W->Jules  54%      38/71
+   Z->Victor  52%      37/71
+-------Ronde 71 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Thibaut  vs Lukas      1 - 0
+   W->Thibaut  46%      33/72
+   Z->Lukas  46%      33/72
+Niels  vs Serge      1 - 0
+   W->Niels  49%      35/72
+   Z->Serge  47%      34/72
+Norah  vs Ruben      1 - 0
+   W->Norah  49%      35/72
+   Z->Ruben  49%      35/72
+Francesca  vs Jonathan      1 - 0
+   W->Francesca  50%      36/72
+   Z->Jonathan  50%      36/72
+Thomas_fout  vs Tiffany      1 - 0
+   W->Thomas_fout  51%      37/72
+   Z->Tiffany  50%      36/72
+Adrien  vs Thomas2      1 - 0
+   W->Adrien  53%      38/72
+   Z->Thomas2  51%      37/72
+Victor  vs Jules      1 - 0
+   W->Victor  53%      38/72
+   Z->Jules  53%      38/72
+-------Ronde 72 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Lukas  vs Thibaut      1 - 0
+   W->Lukas  47%      34/73
+   Z->Thibaut  45%      33/73
+Serge  vs Niels      1 - 0
+   W->Serge  48%      35/73
+   Z->Niels  48%      35/73
+Ruben  vs Norah      1 - 0
+   W->Ruben  49%      36/73
+   Z->Norah  48%      35/73
+Jonathan  vs Francesca      1 - 0
+   W->Jonathan  51%      37/73
+   Z->Francesca  49%      36/73
+Tiffany  vs Thomas_fout      1 - 0
+   W->Tiffany  51%      37/73
+   Z->Thomas_fout  51%      37/73
+Thomas2  vs Adrien      1 - 0
+   W->Thomas2  52%      38/73
+   Z->Adrien  52%      38/73
+Jules  vs Victor      1 - 0
+   W->Jules  53%      39/73
+   Z->Victor  52%      38/73
+-------Ronde 73 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Thibaut  vs Lukas      1 - 0
+   W->Thibaut  46%      34/74
+   Z->Lukas  46%      34/74
+Niels  vs Serge      1 - 0
+   W->Niels  49%      36/74
+   Z->Serge  47%      35/74
+Norah  vs Ruben      1 - 0
+   W->Norah  49%      36/74
+   Z->Ruben  49%      36/74
+Francesca  vs Jonathan      1 - 0
+   W->Francesca  50%      37/74
+   Z->Jonathan  50%      37/74
+Thomas_fout  vs Tiffany      1 - 0
+   W->Thomas_fout  51%      38/74
+   Z->Tiffany  50%      37/74
+Adrien  vs Thomas2      1 - 0
+   W->Adrien  53%      39/74
+   Z->Thomas2  51%      38/74
+Victor  vs Jules      1 - 0
+   W->Victor  53%      39/74
+   Z->Jules  53%      39/74
+-------Ronde 74 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Lukas  vs Thibaut      1 - 0
+   W->Lukas  47%      35/75
+   Z->Thibaut  45%      34/75
+Serge  vs Niels      1 - 0
+   W->Serge  48%      36/75
+   Z->Niels  48%      36/75
+Ruben  vs Norah      1 - 0
+   W->Ruben  49%      37/75
+   Z->Norah  48%      36/75
+Jonathan  vs Francesca      1 - 0
+   W->Jonathan  51%      38/75
+   Z->Francesca  49%      37/75
+Tiffany  vs Thomas_fout      1 - 0
+   W->Tiffany  51%      38/75
+   Z->Thomas_fout  51%      38/75
+Thomas2  vs Adrien      1 - 0
+   W->Thomas2  52%      39/75
+   Z->Adrien  52%      39/75
+Jules  vs Victor      1 - 0
+   W->Jules  53%      40/75
+   Z->Victor  52%      39/75
+-------Ronde 75 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Thibaut  vs Lukas      1 - 0
+   W->Thibaut  46%      35/76
+   Z->Lukas  46%      35/76
+Niels  vs Serge      1 - 0
+   W->Niels  49%      37/76
+   Z->Serge  47%      36/76
+Norah  vs Ruben      1 - 0
+   W->Norah  49%      37/76
+   Z->Ruben  49%      37/76
+Francesca  vs Jonathan      1 - 0
+   W->Francesca  50%      38/76
+   Z->Jonathan  50%      38/76
+Thomas_fout  vs Tiffany      1 - 0
+   W->Thomas_fout  51%      39/76
+   Z->Tiffany  50%      38/76
+Adrien  vs Thomas2      1 - 0
+   W->Adrien  53%      40/76
+   Z->Thomas2  51%      39/76
+Victor  vs Jules      1 - 0
+   W->Victor  53%      40/76
+   Z->Jules  53%      40/76
+-------Ronde 76 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Lukas  vs Thibaut      1 - 0
+   W->Lukas  47%      36/77
+   Z->Thibaut  45%      35/77
+Serge  vs Niels      1 - 0
+   W->Serge  48%      37/77
+   Z->Niels  48%      37/77
+Ruben  vs Norah      1 - 0
+   W->Ruben  49%      38/77
+   Z->Norah  48%      37/77
+Jonathan  vs Francesca      1 - 0
+   W->Jonathan  51%      39/77
+   Z->Francesca  49%      38/77
+Tiffany  vs Thomas_fout      1 - 0
+   W->Tiffany  51%      39/77
+   Z->Thomas_fout  51%      39/77
+Thomas2  vs Adrien      1 - 0
+   W->Thomas2  52%      40/77
+   Z->Adrien  52%      40/77
+Jules  vs Victor      1 - 0
+   W->Jules  53%      41/77
+   Z->Victor  52%      40/77
+-------Ronde 77 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Thibaut  vs Lukas      1 - 0
+   W->Thibaut  46%      36/78
+   Z->Lukas  46%      36/78
+Niels  vs Serge      1 - 0
+   W->Niels  49%      38/78
+   Z->Serge  47%      37/78
+Norah  vs Ruben      1 - 0
+   W->Norah  49%      38/78
+   Z->Ruben  49%      38/78
+Francesca  vs Jonathan      1 - 0
+   W->Francesca  50%      39/78
+   Z->Jonathan  50%      39/78
+Thomas_fout  vs Tiffany      1 - 0
+   W->Thomas_fout  51%      40/78
+   Z->Tiffany  50%      39/78
+Adrien  vs Thomas2      1 - 0
+   W->Adrien  53%      41/78
+   Z->Thomas2  51%      40/78
+Victor  vs Jules      1 - 0
+   W->Victor  53%      41/78
+   Z->Jules  53%      41/78
+-------Ronde 78 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Lukas  vs Thibaut      1 - 0
+   W->Lukas  47%      37/79
+   Z->Thibaut  46%      36/79
+Serge  vs Niels      1 - 0
+   W->Serge  48%      38/79
+   Z->Niels  48%      38/79
+Ruben  vs Norah      1 - 0
+   W->Ruben  49%      39/79
+   Z->Norah  48%      38/79
+Jonathan  vs Francesca      1 - 0
+   W->Jonathan  51%      40/79
+   Z->Francesca  49%      39/79
+Tiffany  vs Thomas_fout      1 - 0
+   W->Tiffany  51%      40/79
+   Z->Thomas_fout  51%      40/79
+Thomas2  vs Adrien      1 - 0
+   W->Thomas2  52%      41/79
+   Z->Adrien  52%      41/79
+Jules  vs Victor      1 - 0
+   W->Jules  53%      42/79
+   Z->Victor  52%      41/79
+-------Ronde 79 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Thibaut  vs Lukas      1 - 0
+   W->Thibaut  46%      37/80
+   Z->Lukas  46%      37/80
+Niels  vs Serge      1 - 0
+   W->Niels  49%      39/80
+   Z->Serge  48%      38/80
+Norah  vs Ruben      1 - 0
+   W->Norah  49%      39/80
+   Z->Ruben  49%      39/80
+Francesca  vs Jonathan      1 - 0
+   W->Francesca  50%      40/80
+   Z->Jonathan  50%      40/80
+Thomas_fout  vs Tiffany      1 - 0
+   W->Thomas_fout  51%      41/80
+   Z->Tiffany  50%      40/80
+Adrien  vs Thomas2      1 - 0
+   W->Adrien  53%      42/80
+   Z->Thomas2  51%      41/80
+Victor  vs Jules      1 - 0
+   W->Victor  53%      42/80
+   Z->Jules  53%      42/80
+-------Ronde 80 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Lukas  vs Thibaut      1 - 0
+   W->Lukas  47%      38/81
+   Z->Thibaut  46%      37/81
+Serge  vs Niels      1 - 0
+   W->Serge  48%      39/81
+   Z->Niels  48%      39/81
+Ruben  vs Norah      1 - 0
+   W->Ruben  49%      40/81
+   Z->Norah  48%      39/81
+Jonathan  vs Francesca      1 - 0
+   W->Jonathan  51%      41/81
+   Z->Francesca  49%      40/81
+Tiffany  vs Thomas_fout      1 - 0
+   W->Tiffany  51%      41/81
+   Z->Thomas_fout  51%      41/81
+Thomas2  vs Adrien      1 - 0
+   W->Thomas2  52%      42/81
+   Z->Adrien  52%      42/81
+Jules  vs Victor      1 - 0
+   W->Jules  53%      43/81
+   Z->Victor  52%      42/81
+-------Ronde 81 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Thibaut  vs Lukas      1 - 0
+   W->Thibaut  46%      38/82
+   Z->Lukas  46%      38/82
+Niels  vs Serge      1 - 0
+   W->Niels  49%      40/82
+   Z->Serge  48%      39/82
+Norah  vs Ruben      1 - 0
+   W->Norah  49%      40/82
+   Z->Ruben  49%      40/82
+Francesca  vs Jonathan      1 - 0
+   W->Francesca  50%      41/82
+   Z->Jonathan  50%      41/82
+Thomas_fout  vs Tiffany      1 - 0
+   W->Thomas_fout  51%      42/82
+   Z->Tiffany  50%      41/82
+Adrien  vs Thomas2      1 - 0
+   W->Adrien  52%      43/82
+   Z->Thomas2  51%      42/82
+Victor  vs Jules      1 - 0
+   W->Victor  52%      43/82
+   Z->Jules  52%      43/82
+-------Ronde 82 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Lukas  vs Thibaut      1 - 0
+   W->Lukas  47%      39/83
+   Z->Thibaut  46%      38/83
+Serge  vs Niels      1 - 0
+   W->Serge  48%      40/83
+   Z->Niels  48%      40/83
+Ruben  vs Norah      1 - 0
+   W->Ruben  49%      41/83
+   Z->Norah  48%      40/83
+Jonathan  vs Francesca      1 - 0
+   W->Jonathan  51%      42/83
+   Z->Francesca  49%      41/83
+Tiffany  vs Thomas_fout      1 - 0
+   W->Tiffany  51%      42/83
+   Z->Thomas_fout  51%      42/83
+Thomas2  vs Adrien      1 - 0
+   W->Thomas2  52%      43/83
+   Z->Adrien  52%      43/83
+Jules  vs Victor      1 - 0
+   W->Jules  53%      44/83
+   Z->Victor  52%      43/83
+-------Ronde 83 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Thibaut  vs Lukas      1 - 0
+   W->Thibaut  46%      39/84
+   Z->Lukas  46%      39/84
+Niels  vs Serge      1 - 0
+   W->Niels  49%      41/84
+   Z->Serge  48%      40/84
+Norah  vs Ruben      1 - 0
+   W->Norah  49%      41/84
+   Z->Ruben  49%      41/84
+Francesca  vs Jonathan      1 - 0
+   W->Francesca  50%      42/84
+   Z->Jonathan  50%      42/84
+Thomas_fout  vs Tiffany      1 - 0
+   W->Thomas_fout  51%      43/84
+   Z->Tiffany  50%      42/84
+Adrien  vs Thomas2      1 - 0
+   W->Adrien  52%      44/84
+   Z->Thomas2  51%      43/84
+Victor  vs Jules      1 - 0
+   W->Victor  52%      44/84
+   Z->Jules  52%      44/84
+-------Ronde 84 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Lukas  vs Thibaut      1 - 0
+   W->Lukas  47%      40/85
+   Z->Thibaut  46%      39/85
+Serge  vs Niels      1 - 0
+   W->Serge  48%      41/85
+   Z->Niels  48%      41/85
+Ruben  vs Norah      1 - 0
+   W->Ruben  49%      42/85
+   Z->Norah  48%      41/85
+Jonathan  vs Francesca      1 - 0
+   W->Jonathan  51%      43/85
+   Z->Francesca  49%      42/85
+Tiffany  vs Thomas_fout      1 - 0
+   W->Tiffany  51%      43/85
+   Z->Thomas_fout  51%      43/85
+Thomas2  vs Adrien      1 - 0
+   W->Thomas2  52%      44/85
+   Z->Adrien  52%      44/85
+Jules  vs Victor      1 - 0
+   W->Jules  53%      45/85
+   Z->Victor  52%      44/85
+-------Ronde 85 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Thibaut  vs Lukas      1 - 0
+   W->Thibaut  47%      40/86
+   Z->Lukas  47%      40/86
+Niels  vs Serge      1 - 0
+   W->Niels  49%      42/86
+   Z->Serge  48%      41/86
+Norah  vs Ruben      1 - 0
+   W->Norah  49%      42/86
+   Z->Ruben  49%      42/86
+Francesca  vs Jonathan      1 - 0
+   W->Francesca  50%      43/86
+   Z->Jonathan  50%      43/86
+Thomas_fout  vs Tiffany      1 - 0
+   W->Thomas_fout  51%      44/86
+   Z->Tiffany  50%      43/86
+Adrien  vs Thomas2      1 - 0
+   W->Adrien  52%      45/86
+   Z->Thomas2  51%      44/86
+Victor  vs Jules      1 - 0
+   W->Victor  52%      45/86
+   Z->Jules  52%      45/86
+-------Ronde 86 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Lukas  vs Thibaut      1 - 0
+   W->Lukas  47%      41/87
+   Z->Thibaut  46%      40/87
+Serge  vs Niels      1 - 0
+   W->Serge  48%      42/87
+   Z->Niels  48%      42/87
+Ruben  vs Norah      1 - 0
+   W->Ruben  49%      43/87
+   Z->Norah  48%      42/87
+Jonathan  vs Francesca      1 - 0
+   W->Jonathan  51%      44/87
+   Z->Francesca  49%      43/87
+Tiffany  vs Thomas_fout      1 - 0
+   W->Tiffany  51%      44/87
+   Z->Thomas_fout  51%      44/87
+Thomas2  vs Adrien      1 - 0
+   W->Thomas2  52%      45/87
+   Z->Adrien  52%      45/87
+Jules  vs Victor      1 - 0
+   W->Jules  53%      46/87
+   Z->Victor  52%      45/87
+-------Ronde 87 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Thibaut  vs Lukas      1 - 0
+   W->Thibaut  47%      41/88
+   Z->Lukas  47%      41/88
+Niels  vs Serge      1 - 0
+   W->Niels  49%      43/88
+   Z->Serge  48%      42/88
+Norah  vs Ruben      1 - 0
+   W->Norah  49%      43/88
+   Z->Ruben  49%      43/88
+Francesca  vs Jonathan      1 - 0
+   W->Francesca  50%      44/88
+   Z->Jonathan  50%      44/88
+Thomas_fout  vs Tiffany      1 - 0
+   W->Thomas_fout  51%      45/88
+   Z->Tiffany  50%      44/88
+Adrien  vs Thomas2      1 - 0
+   W->Adrien  52%      46/88
+   Z->Thomas2  51%      45/88
+Victor  vs Jules      1 - 0
+   W->Victor  52%      46/88
+   Z->Jules  52%      46/88
+-------Ronde 88 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Lukas  vs Thibaut      1 - 0
+   W->Lukas  47%      42/89
+   Z->Thibaut  46%      41/89
+Serge  vs Niels      1 - 0
+   W->Serge  48%      43/89
+   Z->Niels  48%      43/89
+Ruben  vs Norah      1 - 0
+   W->Ruben  49%      44/89
+   Z->Norah  48%      43/89
+Jonathan  vs Francesca      1 - 0
+   W->Jonathan  51%      45/89
+   Z->Francesca  49%      44/89
+Tiffany  vs Thomas_fout      1 - 0
+   W->Tiffany  51%      45/89
+   Z->Thomas_fout  51%      45/89
+Thomas2  vs Adrien      1 - 0
+   W->Thomas2  52%      46/89
+   Z->Adrien  52%      46/89
+Jules  vs Victor      1 - 0
+   W->Jules  53%      47/89
+   Z->Victor  52%      46/89
+-------Ronde 89 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Thibaut  vs Lukas      1 - 0
+   W->Thibaut  47%      42/90
+   Z->Lukas  47%      42/90
+Niels  vs Serge      1 - 0
+   W->Niels  49%      44/90
+   Z->Serge  48%      43/90
+Norah  vs Ruben      1 - 0
+   W->Norah  49%      44/90
+   Z->Ruben  49%      44/90
+Francesca  vs Jonathan      1 - 0
+   W->Francesca  50%      45/90
+   Z->Jonathan  50%      45/90
+Thomas_fout  vs Tiffany      1 - 0
+   W->Thomas_fout  51%      46/90
+   Z->Tiffany  50%      45/90
+Adrien  vs Thomas2      1 - 0
+   W->Adrien  52%      47/90
+   Z->Thomas2  51%      46/90
+Victor  vs Jules      1 - 0
+   W->Victor  52%      47/90
+   Z->Jules  52%      47/90
+-------Ronde 90 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Lukas  vs Thibaut      1 - 0
+   W->Lukas  47%      43/91
+   Z->Thibaut  46%      42/91
+Serge  vs Niels      1 - 0
+   W->Serge  48%      44/91
+   Z->Niels  48%      44/91
+Ruben  vs Norah      1 - 0
+   W->Ruben  49%      45/91
+   Z->Norah  48%      44/91
+Jonathan  vs Francesca      1 - 0
+   W->Jonathan  51%      46/91
+   Z->Francesca  49%      45/91
+Tiffany  vs Thomas_fout      1 - 0
+   W->Tiffany  51%      46/91
+   Z->Thomas_fout  51%      46/91
+Thomas2  vs Adrien      1 - 0
+   W->Thomas2  52%      47/91
+   Z->Adrien  52%      47/91
+Jules  vs Victor      1 - 0
+   W->Jules  53%      48/91
+   Z->Victor  52%      47/91
+-------Ronde 91 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Thibaut  vs Lukas      1 - 0
+   W->Thibaut  47%      43/92
+   Z->Lukas  47%      43/92
+Niels  vs Serge      1 - 0
+   W->Niels  49%      45/92
+   Z->Serge  48%      44/92
+Norah  vs Ruben      1 - 0
+   W->Norah  49%      45/92
+   Z->Ruben  49%      45/92
+Francesca  vs Jonathan      1 - 0
+   W->Francesca  50%      46/92
+   Z->Jonathan  50%      46/92
+Thomas_fout  vs Tiffany      1 - 0
+   W->Thomas_fout  51%      47/92
+   Z->Tiffany  50%      46/92
+Adrien  vs Thomas2      1 - 0
+   W->Adrien  52%      48/92
+   Z->Thomas2  51%      47/92
+Victor  vs Jules      1 - 0
+   W->Victor  52%      48/92
+   Z->Jules  52%      48/92
+-------Ronde 92 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Lukas  vs Thibaut      1 - 0
+   W->Lukas  47%      44/93
+   Z->Thibaut  46%      43/93
+Serge  vs Niels      1 - 0
+   W->Serge  48%      45/93
+   Z->Niels  48%      45/93
+Ruben  vs Norah      1 - 0
+   W->Ruben  49%      46/93
+   Z->Norah  48%      45/93
+Jonathan  vs Francesca      1 - 0
+   W->Jonathan  51%      47/93
+   Z->Francesca  49%      46/93
+Tiffany  vs Thomas_fout      1 - 0
+   W->Tiffany  51%      47/93
+   Z->Thomas_fout  51%      47/93
+Thomas2  vs Adrien      1 - 0
+   W->Thomas2  52%      48/93
+   Z->Adrien  52%      48/93
+Jules  vs Victor      1 - 0
+   W->Jules  53%      49/93
+   Z->Victor  52%      48/93
+-------Ronde 93 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Thibaut  vs Lukas      1 - 0
+   W->Thibaut  47%      44/94
+   Z->Lukas  47%      44/94
+Niels  vs Serge      1 - 0
+   W->Niels  49%      46/94
+   Z->Serge  48%      45/94
+Norah  vs Ruben      1 - 0
+   W->Norah  49%      46/94
+   Z->Ruben  49%      46/94
+Francesca  vs Jonathan      1 - 0
+   W->Francesca  50%      47/94
+   Z->Jonathan  50%      47/94
+Thomas_fout  vs Tiffany      1 - 0
+   W->Thomas_fout  51%      48/94
+   Z->Tiffany  50%      47/94
+Adrien  vs Thomas2      1 - 0
+   W->Adrien  52%      49/94
+   Z->Thomas2  51%      48/94
+Victor  vs Jules      1 - 0
+   W->Victor  52%      49/94
+   Z->Jules  52%      49/94
+-------Ronde 94 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Lukas  vs Thibaut      1 - 0
+   W->Lukas  47%      45/95
+   Z->Thibaut  46%      44/95
+Serge  vs Niels      1 - 0
+   W->Serge  48%      46/95
+   Z->Niels  48%      46/95
+Ruben  vs Norah      1 - 0
+   W->Ruben  49%      47/95
+   Z->Norah  48%      46/95
+Jonathan  vs Francesca      1 - 0
+   W->Jonathan  51%      48/95
+   Z->Francesca  49%      47/95
+Tiffany  vs Thomas_fout      1 - 0
+   W->Tiffany  51%      48/95
+   Z->Thomas_fout  51%      48/95
+Thomas2  vs Adrien      1 - 0
+   W->Thomas2  52%      49/95
+   Z->Adrien  52%      49/95
+Jules  vs Victor      1 - 0
+   W->Jules  53%      50/95
+   Z->Victor  52%      49/95
+-------Ronde 95 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Thibaut  vs Lukas      1 - 0
+   W->Thibaut  47%      45/96
+   Z->Lukas  47%      45/96
+Niels  vs Serge      1 - 0
+   W->Niels  49%      47/96
+   Z->Serge  48%      46/96
+Norah  vs Ruben      1 - 0
+   W->Norah  49%      47/96
+   Z->Ruben  49%      47/96
+Francesca  vs Jonathan      1 - 0
+   W->Francesca  50%      48/96
+   Z->Jonathan  50%      48/96
+Thomas_fout  vs Tiffany      1 - 0
+   W->Thomas_fout  51%      49/96
+   Z->Tiffany  50%      48/96
+Adrien  vs Thomas2      1 - 0
+   W->Adrien  52%      50/96
+   Z->Thomas2  51%      49/96
+Victor  vs Jules      1 - 0
+   W->Victor  52%      50/96
+   Z->Jules  52%      50/96
+-------Ronde 96 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Lukas  vs Thibaut      1 - 0
+   W->Lukas  47%      46/97
+   Z->Thibaut  46%      45/97
+Serge  vs Niels      1 - 0
+   W->Serge  48%      47/97
+   Z->Niels  48%      47/97
+Ruben  vs Norah      1 - 0
+   W->Ruben  49%      48/97
+   Z->Norah  48%      47/97
+Jonathan  vs Francesca      1 - 0
+   W->Jonathan  51%      49/97
+   Z->Francesca  49%      48/97
+Tiffany  vs Thomas_fout      1 - 0
+   W->Tiffany  51%      49/97
+   Z->Thomas_fout  51%      49/97
+Thomas2  vs Adrien      1 - 0
+   W->Thomas2  52%      50/97
+   Z->Adrien  52%      50/97
+Jules  vs Victor      1 - 0
+   W->Jules  53%      51/97
+   Z->Victor  52%      50/97
+-------Ronde 97 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Thibaut  vs Lukas      1 - 0
+   W->Thibaut  47%      46/98
+   Z->Lukas  47%      46/98
+Niels  vs Serge      1 - 0
+   W->Niels  49%      48/98
+   Z->Serge  48%      47/98
+Norah  vs Ruben      1 - 0
+   W->Norah  49%      48/98
+   Z->Ruben  49%      48/98
+Francesca  vs Jonathan      1 - 0
+   W->Francesca  50%      49/98
+   Z->Jonathan  50%      49/98
+Thomas_fout  vs Tiffany      1 - 0
+   W->Thomas_fout  51%      50/98
+   Z->Tiffany  50%      49/98
+Adrien  vs Thomas2      1 - 0
+   W->Adrien  52%      51/98
+   Z->Thomas2  51%      50/98
+Victor  vs Jules      1 - 0
+   W->Victor  52%      51/98
+   Z->Jules  52%      51/98
+-------Ronde 98 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Lukas  vs Thibaut      1 - 0
+   W->Lukas  47%      47/99
+   Z->Thibaut  46%      46/99
+Serge  vs Niels      1 - 0
+   W->Serge  48%      48/99
+   Z->Niels  48%      48/99
+Ruben  vs Norah      1 - 0
+   W->Ruben  49%      49/99
+   Z->Norah  48%      48/99
+Jonathan  vs Francesca      1 - 0
+   W->Jonathan  51%      50/99
+   Z->Francesca  49%      49/99
+Tiffany  vs Thomas_fout      1 - 0
+   W->Tiffany  51%      50/99
+   Z->Thomas_fout  51%      50/99
+Thomas2  vs Adrien      1 - 0
+   W->Thomas2  52%      51/99
+   Z->Adrien  52%      51/99
+Jules  vs Victor      1 - 0
+   W->Jules  53%      52/99
+   Z->Victor  52%      51/99
+-------Ronde 99 --------------
+Niet spelend:Thomas  80%      4/5
+Niet spelend:Brent  80%      4/5
+#Te spelen partijen:7
+Thibaut  vs Lukas      1 - 0
+   W->Thibaut  47%      47/100
+   Z->Lukas  47%      47/100
+Niels  vs Serge      1 - 0
+   W->Niels  49%      49/100
+   Z->Serge  48%      48/100
+Norah  vs Ruben      1 - 0
+   W->Norah  49%      49/100
+   Z->Ruben  49%      49/100
+Francesca  vs Jonathan      1 - 0
+   W->Francesca  50%      50/100
+   Z->Jonathan  50%      50/100
+Thomas_fout  vs Tiffany      1 - 0
+   W->Thomas_fout  51%      51/100
+   Z->Tiffany  50%      50/100
+Adrien  vs Thomas2      1 - 0
+   W->Adrien  52%      52/100
+   Z->Thomas2  51%      51/100
+Victor  vs Jules      1 - 0
+   W->Victor  52%      52/100
+   Z->Jules  52%      52/100
+]]></system-out>
+  <system-err><![CDATA[apr 12, 2014 5:40:11 PM util.PFXUtil log
+INFO: Setting maxpoints to 30
+apr 12, 2014 5:40:11 PM util.PFXUtil log
+INFO: Setting maxpercentage to 60
+]]></system-err>
+</testsuite>

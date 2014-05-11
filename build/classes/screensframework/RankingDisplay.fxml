@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?scenebuilder-preview-i18n-resource ../i18n/application_nl.properties?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="screensframework.RankingDisplayController">
+  <children>
+    <ScrollPane id="ScrollPane" layoutX="0.0" layoutY="0.0" prefViewportHeight="768.0" prefViewportWidth="1027.0">
+      <content>
+        <AnchorPane prefHeight="768.0" prefWidth="1024.0">
+          <children>
+            <SplitPane id="SplitPane" dividerPositions="" layoutX="2.0" layoutY="0.0" orientation="VERTICAL" prefHeight="768.0" prefWidth="1025.0">
+              <items>
+                <AnchorPane id="AnchorPane" prefHeight="766.0" prefWidth="1023.0">
+                  <children>
+                    <ImageView id="3D-Chess-Board-Black-and-White-39.jpg" fitHeight="768.0" fitWidth="1024.0" layoutX="0.0" layoutY="-22.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" visible="true">
+                      <image>
+                        <Image url="@../img/chess-board-strategic-game-for-two-players-free-hd-55880.jpg" preserveRatio="true" smooth="true" />
+                      </image>
+                    </ImageView>
+                    <AnchorPane layoutX="1.0" layoutY="1.0" maxHeight="-Infinity" prefHeight="82.0" prefWidth="1023.0" visible="true">
+                      <children>
+                        <Label layoutX="14.0" layoutY="56.0" prefWidth="378.0" text="%toernooiOverzicht.rangschikking">
+                          <labelFor>
+                            <ListView fx:id="spelers" prefWidth="334.0" />
+                          </labelFor>
+                        </Label>
+                        <Label layoutX="14.0" layoutY="14.0" prefWidth="366.0" text="PairFX" textFill="radial-gradient(focus-angle 0.0deg, focus-distance 0.0% , center 100.0px 100.0px, radius 400.0px, 0xff0000ff 0.0%, 0x0000ffff 35.0%, 0x000000ff 100.0%)">
+                          <font>
+                            <Font size="24.0" />
+                          </font>
+                        </Label>
+                        <Label layoutX="762.0" layoutY="60.0" prefWidth="124.0" text="%toernooiOverzicht.paringen" textFill="WHITE">
+                          <labelFor>
+                            <ListView id="paringen" prefHeight="402.0" prefWidth="585.0" />
+                          </labelFor>
+                        </Label>
+                        <BorderPane layoutX="545.0" layoutY="20.0" prefHeight="36.0" prefWidth="479.0" />
+                      </children>
+                    </AnchorPane>
+                    <SplitPane disable="false" dividerPositions="0.4779627815866797, 0.5161606268364348" focusTraversable="true" layoutX="1.0" layoutY="89.0" maxHeight="-Infinity" opacity="0.95" pickOnBounds="false" prefHeight="404.0" prefWidth="1023.0" visible="true">
+                      <items>
+                        <AnchorPane prefHeight="200.0" prefWidth="327.0">
+                          <children>
+                            <ScrollPane id="ScrollPane" fitToHeight="true" fitToWidth="true" prefHeight="-1.0" prefViewportHeight="402.0" prefViewportWidth="315.0" prefWidth="-1.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                              <content>
+                                <ListView fx:id="ranking" prefWidth="314.0" />
+                              </content>
+                            </ScrollPane>
+                          </children>
+                        </AnchorPane>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="523.0" prefWidth="406.0" />
+                        <AnchorPane>
+                          <children>
+                            <ScrollPane id="ScrollPane" fitToHeight="true" fitToWidth="true" pannable="false" prefHeight="-1.0" prefViewportHeight="402.0" prefViewportWidth="585.0" prefWidth="-1.0" vbarPolicy="AS_NEEDED" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                              <content>
+                                <ListView fx:id="paringen" />
+                              </content>
+                            </ScrollPane>
+                          </children>
+                        </AnchorPane>
+                      </items>
+                    </SplitPane>
+                    <AnchorPane layoutX="1.0" layoutY="499.0" maxHeight="-Infinity" minHeight="97.0" prefHeight="268.0" prefWidth="1023.0" visible="true">
+                      <children>
+                        <Button layoutX="11.0" layoutY="28.0" minHeight="34.39990234375" mnemonicParsing="false" onAction="#hoofdscherm" prefHeight="44.0" prefWidth="110.0" text="">
+                          <graphic>
+                            <ImageView id="back.png" fitHeight="47.0" fitWidth="47.0" mouseTransparent="true">
+                              <image>
+                                <Image url="@../img/back.png" preserveRatio="true" smooth="true" />
+                              </image>
+                            </ImageView>
+                          </graphic>
+                        </Button>
+                      </children>
+                    </AnchorPane>
+                  </children>
+                </AnchorPane>
+              </items>
+            </SplitPane>
+          </children>
+        </AnchorPane>
+      </content>
+    </ScrollPane>
+  </children>
+</AnchorPane>

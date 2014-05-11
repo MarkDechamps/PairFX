@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="PairFX.jnlp">
+  <information>
+    <title>PairFX</title>
+    <vendor>Mark Dechamps</vendor>
+    <description>Sample JavaFX 2.0 application.</description>
+    <icon href="file:/D:/mark/Dropbox/kordev_repo/kordev/SchoolPairingFX2/src/img/icon_32x32.png" />
+    <offline-allowed/>
+  </information>
+  <resources>
+    <jfx:javafx-runtime version="2.2+" href="http://javadl.sun.com/webapps/download/GetFile/javafx-latest/windows-i586/javafx2.jnlp"/>
+  </resources>
+  <resources>
+    <j2se version="1.6+" java-vm-args="-Dlocale=nl "  href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="PairFX.jar" size="1445546" download="eager" />
+    <jar href="lib/PairFXLib.jar" size="115829" download="eager" />
+    <jar href="lib/dom4j-1.6.1.jar" size="313898" download="eager" />
+    <jar href="lib/javafx-dialogs-0.0.3.jar" size="118212" download="eager" />
+    <jar href="lib/javax.servlet-api.jar" size="95235" download="eager" />
+    <jar href="lib/jetty-all-server-8.1.11.v20130520.jar" size="1861559" download="eager" />
+    <jar href="lib/poi-3.9-20121203.jar" size="1869113" download="eager" />
+    <jar href="lib/poi-ooxml-3.9-20121203.jar" size="936648" download="eager" />
+    <jar href="lib/poi-ooxml-schemas-3.9-20121203.jar" size="4802621" download="eager" />
+    <jar href="lib/simple-xml-2.7.1.jar" size="427590" download="eager" />
+    <jar href="lib/stax-api-1.0.1.jar" size="26514" download="eager" />
+    <jar href="lib/winstone-0.9.10.jar" size="327658" download="eager" />
+    <jar href="lib/winstone-0.9.9.jar" size="327027" download="eager" />
+    <jar href="lib/xmlbeans-2.3.0.jar" size="2666695" download="eager" />
+  </resources>
+  <applet-desc  width="800" height="600" main-class="com.javafx.main.NoJavaFXFallback"  name="PairFX" >
+    <param name="requiredFXVersion" value="2.2+"/>
+  </applet-desc>
+  <jfx:javafx-desc  width="800" height="600" main-class="schoolpairingfx.SchoolPairingFX"  name="PairFX" />
+  <update check="always"/>
+</jnlp>

@@ -1,0 +1,71 @@
+
+PairFX The free tournament pairing program for school and youth chess tournaments available in Dutch, French and English!
+
+Engels??
+PairFX is a pairing program for youth tournaments in schools and chess clubs . It supports the organization of a so-called 'run through' tournament. 
+You can add and remove players on the fly and adjust the pairings if you wish. Its not round based but game based, so those who can play faster will be playing more games than those who play slower. That's not bad. 
+The pairing algorithm sorts the players according to percentage and points, and then tries from the bottom to the top to make pairings. 
+The important thing is that the players play as much as possible. Where round based pairing programs come in handy when organizing club competitions and adults tournaments, PairFX proves to be better for youth tournaments. Ideal to run tournaments at school! Are you a chess teacher at school, or organize a separate tournament at the club? Try PairFx!
+
+
+
+How does it work?
+Suppose you have 20 players, so 10 games. After 10 minutes, six players have finished playing and are doing nothing.
+Instead of keeping themselves busy or disturbing the other games,you can get them to play chess immediately again with PairFX.
+Is a chess player tired of playing, you do not need to pair him again. When a new player wants to join late, you just add him and your done.
+PairFX takes into account 'color preference' as much as possible, alternating white and black. Furthermore, players can play each other multiple times. But not in the last three rounds (you can adjust this). 
+
+So if the message indicates that a pairing is not possible, then it is one of those reasons. Both parameters can be adjusted in the tournament file if needed. and best of al .. it's completely free !
+
+Installation:
+1) Download and unzip the PairFX in a folder
+    Attention! Do not download and directly double-click because you are engaging in the zip file and PairFx will not find the program libraries No, unzip the program somewhere in a folder on your disk. eg 'c: \ pairfx. 
+2) Install the Java 7 runtime (jre)
+3) Start PairFX!
+    by double-clicking or PairFX.jar PAIRFX_FR for the french version, or PAIRFX_EN for the English version. 
+
+	Have Fun!
+
+Start a New Tournament!
+PairFX versions:
+
+version 1.12 (01/26/2014)
+Two major changes in this release:
+* PairFX translated! You can now start using PairFX_NL, PAIRFX_FR PAIRFX_EN or
+any other language can now be added in no time. Spread the word!
+* experimental: Import from Excel. xls and xlsx is supported. format: the first sheet is taken of them and the 3rd column is imported. Format: Last Name First Name so eg: Jan Van De Velde -> First name: Jan, name: Van De Velde. This will change but for the time being to support. School chess tournament Of course we want a column name and a column name.
+version 1.11 (01/19/2014)
+* New tournaments are based on old tournaments now. Created On the 'new tournament "screen, you can select from the dropdown another tournament. Now if you type in a name and click 'Create tournament' button then the tournament will be created and all the players (only name and surname) of the selected tournament directly created in the new tournament. This can save a lot of time if you always sit with around the same group of players.
+* title
+* put toggle button is replaced by the radio button for clarity in the Administrator screen
+version 1.10 (01/12/2014)
+* Add absences (when editing a player you can now absent put it)
+* after the start of a tournament, you can on the home screen in a button click 'Administrator' where you parameters can modify
+* the% button to switch between percentage pairings and standings and scores opposition to the new Administrator screen.
+* bugfix in frig (x rounds are not playing against each other was not gechecket for 2nd player)
+* edit gefixet
+Version 1.9 (01/02/2014)
+* On the fly switching of mating strategy% or according to points (Caution: This does not necessarily change anything on your screen. But ranking and pairings are different now)
+* sort items in the pool of available players
+* current pairings and already played games in exports crossed
+* points away from a player because I think unnecessarily complex
+* minor bug fixes and major refactor and code cleanup
+* "back" arrow image missing on some screens
+Version 1.8 (22/12/2013)
+* Bugfix for pairings that name was not completed
+* button to see the ranking% of points (this does not change the action, just visually)
+* Icons updated
+* insert / delete / enter fitted to players list via keyboard
+* delete feature on pairings over keyboard
+* unfinished games affect mating not
+Version 1.7 (18/12/2013)
+* Color pairings: new in blue, finished in green and black
+* involved in exports on the basis of percentage or points (you can choose)
+* copy the css file to the export directory of the html
+Version 1.6 (15/12/2013) and sure: basic functionality * Create tournament
+players * Add, delete, and edit
+and delete pairings *
+Export * ranking in txt and html
+Version 1.5 (12/14/2013)
+Version 1.4 (12.12.2013)
+Mark Dechamps 2013

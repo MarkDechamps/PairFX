@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>PairFX</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="PairFX is een paringsprogramma voor schaak toernooien">
+  <meta name="author" content="Mark Dechamps">
+
+	<!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
+	<!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
+	<!--script src="js/less-1.3.3.min.js"></script-->
+	<!--append ‘#!watch’ to the browser URL, then refresh the page. -->
+	
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+  <![endif]-->
+
+  <!-- Fav and touch icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
+  <link rel="shortcut icon" href="img/favicon.png">
+  
+	<script>
+		  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+		  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+		  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+		  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+		  ga('create', 'UA-47059384-1', 'mdconsulting.be');
+		  ga('send', 'pageview');
+	</script>
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+	
+</head>
+
+<body>
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = "//connect.facebook.net/nl_NL/all.js#xfbml=1&appId=234926919938970";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<div class="container">
+	<div class="row clearfix">
+		<div class="col-lg-12 col-md-12 column">
+			<div class="col-lg-12 col-md-12 ">
+			    <div class="page-header">
+				
+				<h1>
+					PairFX<br>
+					<small>Het gratis toernooi paringsprogramma voor <b>schoolschaak</b> en <b>jeugdtoernooien</b></small></br>
+					<small>Beschikbaar in Nederlands, Frans en Engels!</small>					
+				</h1>
+				
+				<div class="fb-like" data-href="https://www.facebook.com/pairfxchess" data-width="50" data-layout="box_count" data-action="like" data-show-faces="true" data-share="true"></div>
+				</div>
+				<div><a href="index_eng.html">This site in English</a></div>
+				<div class="col-lg-6 col-md-12 panel">
+				<h3>
+					<b>PairFX</b> is een <b>paring programma</b> voor <b>jeugd toernooien</b> in <b>scholen</b> of in <b>schaakclubs</b>.<br/><br/> Het ondersteunt het organiseren van een zogenaamd doorlooptoernooi. Je kan spelers toevoegen
+					en wegnemen 'on the fly' en de paringen bijsturen als je dit wenst. Het werkt niet ronde gebaseerd maar partij gebaseerd, wie sneller speelt kan dus meer partijen hebben
+					dan wie trager speelt. Dat is helemaal niet erg. 
+					Het paringsalgoritme sorteert de spelers volgens percentage en punten, en probeert dan van onder naar
+					boven toe paringen te maken.</br> 
+					Het belangrijkste is dat de spelers veel kunnen spelen.<br/>
+					Waar rondegebaseerde <b>paringsprogramma</b>'s zoals Pairtwo goed van pas komen bij het organiseren
+					van clubcompetities en volwassenen toernooien, blijkt <b>PairFX</b> beter voor <b>jeugdtoernooien</b>.<br/>
+					Ideaal dus om op <b>school</b> een <b>schaaktoernooi</b> te spelen!
+					<br/><br/>
+					Bent u schaak lesgever op school, of organiseert u een los toernooitje in de club ? Probeer PairFx!
+				</h3>
+					<div class="thumbnail">
+					<img src="./screenshots/4b_nieuwe_speler_toevoegen.png" class="thumbnail">
+					</div>
+				</div>
+				<div class="col-lg-6 col-md-12 col-sm-12 thumbnail">
+				<img src="./screenshots/2_nieuw_toernooi.png" class="img-rounded">				
+				</div>
+				<div class="col-lg-6 col-md-12 panel">
+				<h3>
+					Hoe werkt het ?<br/>
+					Stel je heb 20 spelertjes, dus 10 partijen. Na 10 minuten hebben 6 spelers gedaan met spelen en niets om handen.<br/> 
+					In plaats van zichzelf bezig houden kan je ze met PairFX direct weer laten schaken! <br/>
+					Is een speler het schaken <b>even</b> moe, dan hoef je hem niet mee te paren. Komt er een nieuwe speler bij, dan neem je hem gewoon mee in de paringen.</br>
+					PairFX houdt rekening met 'kleur voorkeur' zodat het zoveel mogelijk wit en zwart afwisselt. Verder ook met het feit dat spelers de laatste 3 ronden niet tegen elkaar mogen gespeeld hebben en maximum 3 punten mogen verschillen.</br> 
+					Dus als <b>PairFX</b> de melding geeft dat een paring niet mogelijk is, dan is het om een van die redenen. Beide parameters zijn aan te passen in
+					de toernooi file mocht dit nodig zijn.				
+					en het beste van al...het is volledig <b>gratis</b>!<br/>
+				</h3>					
+				</div>
+			</div>
+			
+			
+			
+			<div class="col-md-12 col-lg-12  panel-default row">
+				<div class="col-md-6 column panel-body">
+					<dl>
+						<dt>
+						Installatie:
+						</dt>
+						<dt>
+						    
+							1) <b>Download PairFX</b> en UNZIP het in een map
+						</dt>
+						<dd>
+							Opgelet! Dus <b>niet</b> downloaden en direct dubbelklikken want dan ben je in de zip file bezig en vindt het programma zijn bibliotheken niet. 
+							Neen, unzip het programma ergens in een mapje op je schijf. bv 'c:\pairfx'.
+						</dd>
+						
+						<dt>
+							2) Installeer de java 7 runtime (jre)
+						</dt>
+						<dd>													
+						</dd>
+						
+						<dt>
+							3) Start PairFX!
+						</dt>
+						<dd>
+							door te dubbelklikken op PairFX.jar	of PAIRFX_FR voor de franse versie, of PAIRFX_EN voor de engelse versie.
+						</dd>
+						
+						<dt>
+							Veel Schaakplezier!!
+						</dt>
+						
+					</dl>
+				</div>
+				<div>
+<form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+<input type="hidden" name="cmd" value="_s-xclick">
+<input type="hidden" name="encrypted" value="-----BEGIN PKCS7-----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-----END PKCS7-----
+">
+<input type="image" src="https://www.paypalobjects.com/en_US/BE/i/btn/btn_donateCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!">
+<img alt="" border="0" src="https://www.paypalobjects.com/en_US/i/scr/pixel.gif" width="1" height="1">
+</form>
+
+				</div>
+				<div class="btn-group-vertical col-md-6 col-lg-6 panel panel-default" >
+					
+					<div class="col-md-12 panel-body">
+						<a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk7-downloads-1880260.html"><button type="button" class="btn btn-lg btn-block btn-primary">Download Java 7 JRE</button></a>
+					</div>
+					<div class="col-md-12 dropdown panel-body">
+						<button class="btn btn-lg btn-block btn-primary" data-toggle="dropdown">Download PairFX <span class="caret"/></button>
+						 <ul class="dropdown-menu">
+						 <li><a href="http://dstats.net/download/http://mdconsulting.be/pairfx/resources/PairFX1.15.zip" tabIndex="-1">PairFX 1.15</a></li>
+						 <li><a href="resources/PairFX1.14.zip" tabIndex="-1">PairFX 1.14</a></li>
+						 <li><a href="resources/PairFX1.13.zip" tabIndex="-1">PairFX 1.13</a></li>
+						 <li><a href="resources/PairFX1.12.zip" tabIndex="-1">PairFX 1.12</a></li>
+						 <li><a href="resources/PairFX1.11.zip" tabIndex="-1">PairFX 1.11</a></li>
+						 <li><a href="resources/PairFX1.10.zip" tabIndex="-1">PairFX 1.10</a></li>
+						 <li><a href="resources/PairFX1.9.zip" tabIndex="-1">PairFX 1.9</a></li>
+						 <li><a href="resources/PairFX1.8.zip" tabIndex="-1">PairFX 1.8</a></li>
+						 <li><a href="resources/PairFX1.7.zip" tabIndex="-1">PairFX 1.7</a></li>
+						 <li><a href="resources/PairFX1.6.zip" tabIndex="-1">PairFX 1.6</a></li>
+						 </ul>
+					</div>
+						
+					
+					<div class="col-md-12 dropdown panel-body">
+						<button class="btn btn-lg btn-block btn-primary" data-toggle="dropdown">Download handleiding <span class="caret"/></button>
+						 <ul class="dropdown-menu">
+							<li><a href="resources/pairfx1.9manuel.pdf" tabIndex="-1">Handleiding 1.9</a></li/>
+							<li><a href="resources/pairfx1.6manuel.pdf" tabIndex="-1">Handleiding 1.6</a></li>
+						 </ul>
+					</div>
+				</div>
+			</div>
+			
+			
+			<div class="row carousel slide col-lg-12 col-md-12" id="carousel-824571">
+				<ol class="carousel-indicators">
+					<li class="active" data-slide-to="0" data-target="#carousel-824571">
+					</li>
+					<li data-slide-to="1" data-target="#carousel-824571">
+					</li>
+					<li data-slide-to="2" data-target="#carousel-824571">
+					</li>
+				</ol>
+				<div class="carousel-inner">
+					<div class="item active">
+						<img alt="" src="screenshots/1_start_scherm.png">
+						<div class="carousel-caption">
+								Nieuw toernooi starten!						
+						</div>
+					</div>					
+					<div class="item ">
+						<img alt="" src="screenshots/2_nieuw_toernooi.png">
+					</div>
+					<div class="item ">
+						<img alt="" src="screenshots/4b_nieuwe_speler_toevoegen.png">
+					</div>
+					<div class="item ">
+						<img alt="" src="screenshots/11b_enkel_bezig.png">
+					</div>
+					<div class="item ">
+						<img alt="" src="screenshots/12_paring_gemaakt_nieuw_2uitslagen_nieuwe_paring.png">
+					</div>
+					<div class="item ">
+						<img alt="" src="screenshots/export2.png">
+					</div>
+					
+					
+					
+					
+				</div> 
+				<a class="left carousel-control" href="#carousel-824571" data-slide="prev"><span class="glyphicon glyphicon-chevron-left"></span></a> <a class="right carousel-control" href="#carousel-824571" data-slide="next"><span class="glyphicon glyphicon-chevron-right"></span></a>
+			</div>
+			<div class=" row col-lg-12 panel">
+			
+					<h2>PairFX versies:</h2><br/>
+					<li>versie 1.15  (27/03/2014)</li>
+								* undo toegevoegd van pas gemaakte paringen en ook detail van de te verwijderen paringen<br/>
+								* mogelijkheid om fading af te zetten in admin scherm. Zo vliegt het programma, maar minder sexy ;) <br/>
+								  Ik had gemerkt dat oudere pc's er wat last mee hadden<br/>
+								* Nog enkele kleine ambetantigheden gefixed (w,z,r werkte ook op al gespeelde partijen)<br/>
+					
+					<li>versie 1.14 (18/03/2014) </li>
+								* found a bug! Codewise very small but enough to block a tournament! So you should really update to thisversion. What was it ? Players have a colour preference in PairFX. But it is not a priority for the pairing algorithm. There was a piece of code that threw an exception if for instance a player who really wanted to be white was again paired with black. Removed that exception since it isn't one.<br/>
+								* Added always forcefully pair 2 players if only 2 are selected. Guess you know what you're doing.
+					
+					<li>versie 1.13 (06/02/2014)</li>
+								* toevoeging van web server. Stel je runt een toernooi en je wilt dat de laatste gemaakte paringen elders geprojecteerd worden. <br/>
+								Open uw toernooi, ga naar het admin scherm en start de server. Er staat een link bij waarop je kan klikken. Het is die link die je moet gebruiken op de pc waar de projector aan hangt. Hiermee surf je naar een pagina gegenereerd door PairFX op de pc waar PairFX draait. 
+								Deze pagina auto refreshed elke 30 seconden. Als de server draait op PairFX, dan zullen de nieuwe paringen automatisch gesaved worden in de web/ directory onder de naam export.html. Als u naar http://'uw pairfx ip'/export.html surft en de browser daar laat staan zal u dankzij de auto refresh automatisch de laatste paringen blijven zien.
+								* Er is een filter toegevoegd onder de paringen kolom. Als u er iets intikt dan filtert de lijst op naam en voornaam van zowel wit als zwart. Alsook op id als u een nummer intikt. De filter herkent dat het een nummer is en filtert op de id.
+								* Import van xls en xlsx ondersteund nu ook id. Het nummer in de eerste kolom wordt genomen als id voor een speler en mee opgeslagen.
+					<li>versie 1.12 (26/01/2014)</li>
+								2 belangrijke wijzigingen in deze release:<br/>
+								* PairFX is vertaald! Je kan het nu opstarten via PairFX_NL, PAIRFX_FR of PAIRFX_EN<br/>
+								Elke andere taal kan nu in no-time toegevoegd worden. Spread the word!<br/>
+								* experimenteel: Import van excel. xls en xlsx is ondersteund. formaat: het eerste blad wordt genomen, daarvan de 3de kolom en die
+								wordt geimporteerd. Formaat: naam voornaam dus bv: Van De Velde Jan --> voornaam: Jan , naam: Van De Velde. Dit zal nog veranderen maar is voorlopig
+								om schoolschaak toernooien te ondersteunen. We willen uiteraard naar een kolom voor naam, en een kolom voor voornaam.<br/> 
+					<li>versie 1.11 (19/01/2014)</li>
+								* nieuwe toernooien kunnen nu gemaakt worden gebaseerd op oude toernooien. Op het 'nieuw toernooi' scherm kan je uit de dropdownbox een ander toernooi kiezen.
+								Als je nu een naam intikt en op 'Maak toernooi aan' klikt dan wordt het toernooi aangemaakt en worden alle spelers (enkel naam en voornaam) uit het geselecteerde toernooi direct aangemaakt in het nieuwe toernooi. Dit kan veel tijd uitsparen als je altijd met ongeveer dezelfde spelersgroep zit.<br/>
+								* title gezet<br/>
+								* toggle button vervangen door radio button voor de duidelijkheid in het Administrator scherm<br/>
+					<li>versie 1.10 (12/01/2014)</li>
+								* afwezigheden toevoegen (bij edit van een speler kan je hem nu afwezig zetten)</br>
+								* na starten van een toernooi, kan je op het startscherm nu op een knop klikken 'Administrator' waar je parameters kan aanpassen</br>
+								* de % knop om te switchen tussen procentuele paringen en klassement en punten is verzet naar het nieuwe Administrator scherm.</br>
+								* bugfix in paringen (x ronden niet tegen elkaar spelen werd niet gechecket voor de 2de speler)</br>
+								* editeren gefixet</br>
+					<li>versie 1.9 (02/01/2014)</li>
+								* on the fly switchen van paringsstrategie % of volgens punten (opgelet! Dit verandert niet perse iets op je scherm. Maar rangschikking en paringen zijn nu anders)</br>
+								* sorteren op punten ook in de pool beschikbare spelers</br>
+								* huidige paringen en reeds gespeelde partijen ook in export gestoken</br>
+								* punten weggehaald van een speler wegens volgens mij onnodig complex</br>
+								* kleine bugfixes en grote refactor en code cleanup</br>
+								* 'terug' pijl image ontbrak op sommige schermen</br>
+					<li>versie 1.8 	(22/12/2013)</li>
+								* bugfix voor paringen waar naam niet ingevuld was</br>
+								* knopje om rangschikking op % of punten te zien (dit verandert niets aan de werking, enkel visueel)</br>
+								* icoontjes aangepast</br>
+								* insert/delete/enter voorzien op spelerslijst via toetsenbord</br>
+								* delete voorzien op paringen via toetsenbord</br>
+								* onafgewerkte partijen beïnvloeden de paring niet meer</br>
+									
+					<li>versie 1.7 (18/12/2013)</li> 
+							* paringen in kleur: nieuwe in het blauw, afgewerkte in het groen en bezig in het zwart</br>
+							* export op basis van percentage of punten (je kan kiezen)</br>
+							* kopieren van de css file naar de export directory van de html</br>
+					<li>versie 1.6 (15/12/2013) en ervoor: basis functionaliteit
+						* toernooien aanmaken</br>
+						* spelers toevoegen, verwijderen en editeren</br>
+						* paringen maken en verwijderen</br>
+						* rangschikking exporteren in txt en html</br>
+					<li>versie 1.5 (14/12/2013)</li>
+					<li>versie 1.4 (12/12/2013)</li>
+			</div>
+		</div>
+	</div>
+	<div class="">
+	Mark Dechamps 2013
+	</div>
+</div>
+</body>
+</html>

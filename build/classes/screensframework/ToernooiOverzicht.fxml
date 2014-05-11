@@ -1,0 +1,193 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+<?scenebuilder-preview-i18n-resource ../i18n/application.properties?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="768.0" prefWidth="1024.0" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2" fx:controller="screensframework.ToernooiOverzichtController">
+  <children>
+    <ScrollPane id="ScrollPane" layoutX="0.0" layoutY="0.0" prefViewportHeight="768.0" prefViewportWidth="1027.0">
+      <content>
+        <AnchorPane prefHeight="768.0" prefWidth="1024.0">
+          <children>
+            <SplitPane id="SplitPane" dividerPositions="" layoutX="2.0" layoutY="0.0" orientation="VERTICAL" prefHeight="768.0" prefWidth="1025.0">
+              <items>
+                <AnchorPane id="AnchorPane" prefHeight="766.0" prefWidth="1023.0">
+                  <children>
+                    <ImageView id="3D-Chess-Board-Black-and-White-39.jpg" fitHeight="768.0" fitWidth="1024.0" layoutX="0.0" layoutY="-22.0" mouseTransparent="true" pickOnBounds="true" preserveRatio="true" visible="true">
+                      <image>
+                        <Image url="@../img/chess-board-strategic-game-for-two-players-free-hd-55880.jpg" preserveRatio="true" smooth="true" />
+                      </image>
+                    </ImageView>
+                    <AnchorPane layoutX="1.0" layoutY="1.0" maxHeight="-Infinity" prefHeight="82.0" prefWidth="1023.0" visible="true">
+                      <children>
+                        <Label layoutX="364.0" layoutY="60.0" prefWidth="124.0" text="%toernooiOverzicht.beschikbareSpelers" textFill="BLACK">
+                          <labelFor>
+                            <ListView fx:id="paringen" onKeyPressed="#pairingKeyPressed" />
+                          </labelFor>
+                        </Label>
+                        <Label layoutX="14.0" layoutY="56.0" prefWidth="378.0" text="%toernooiOverzicht.rangschikking">
+                          <labelFor>
+                            <ListView fx:id="spelers" prefWidth="334.0" />
+                          </labelFor>
+                        </Label>
+                        <Label layoutX="14.0" layoutY="14.0" prefWidth="83.0" text="PairFX" textFill="radial-gradient(focus-angle 0.0deg, focus-distance 0.0% , center 100.0px 100.0px, radius 400.0px, 0xff0000ff 0.0%, 0x0000ffff 35.0%, 0x000000ff 100.0%)">
+                          <font>
+                            <Font size="24.0" />
+                          </font>
+                        </Label>
+                        <Label layoutX="762.0" layoutY="60.0" prefWidth="124.0" text="%toernooiOverzicht.paringen" textFill="WHITE">
+                          <labelFor>
+                            <ListView id="paringen" prefHeight="402.0" prefWidth="585.0" />
+                          </labelFor>
+                        </Label>
+                        <BorderPane layoutX="545.0" layoutY="20.0" prefHeight="36.0" prefWidth="479.0">
+                          <bottom>
+                            <Text fx:id="paringInfo" scaleX="1.0" scaleY="1.0" strokeType="OUTSIDE" strokeWidth="0.0" text="%toernooiOverzicht.paringInfo" textAlignment="LEFT">
+                              <fill>
+                                <Color blue="0.750" green="0.750" red="0.750" fx:id="x1" />
+                              </fill>
+                              <font>
+                                <Font size="12.0" fx:id="x2" />
+                              </font>
+                            </Text>
+                          </bottom>
+                          <top>
+                            <Text fx:id="paringPlayerInfo" fill="$x1" font="$x2" strokeType="OUTSIDE" strokeWidth="0.0" text="%toernooiOverzicht.spelers" textAlignment="LEFT" />
+                          </top>
+                        </BorderPane>
+                        <Button id="selectQll" blendMode="SRC_OVER" cache="true" cacheHint="SPEED" depthTest="INHERIT" graphicTextGap="0.0" layoutX="330.0" layoutY="53.0" minHeight="24.0" minWidth="29.0" mnemonicParsing="false" onAction="#selectAll" pickOnBounds="false" prefHeight="24.0" prefWidth="29.0" text="" textFill="#ff6433" textOverrun="ELLIPSIS" underline="false" wrapText="false">
+                          <graphic>
+                            <ImageView id="select_all.jpg" fitHeight="26.0" fitWidth="29.0">
+                              <image>
+                                <Image url="@../img/select_all.png" preserveRatio="true" smooth="true" />
+                              </image>
+                            </ImageView>
+                          </graphic>
+                        </Button>
+                        <Label fx:id="toernooiNaam" layoutX="196.0" layoutY="14.0" prefWidth="336.0" text="" textFill="radial-gradient(focus-angle 0.0deg, focus-distance 0.0% , center 100.0px 100.0px, radius 200.0px, 0xff0000ff 0.0%, 0x0000ffff 30.0%, 0x000000ff 100.0%)">
+                          <font>
+                            <Font name="Comic Sans MS" size="24.0" />
+                          </font>
+                        </Label>
+                      </children>
+                    </AnchorPane>
+                    <SplitPane disable="false" dividerPositions="0.31145935357492655, 0.6464250734573947" focusTraversable="true" layoutX="1.0" layoutY="89.0" maxHeight="-Infinity" opacity="0.95" pickOnBounds="false" prefHeight="404.0" prefWidth="1023.0" visible="true">
+                      <items>
+                        <AnchorPane prefHeight="200.0" prefWidth="327.0">
+                          <children>
+                            <ScrollPane id="ScrollPane" fitToHeight="true" fitToWidth="true" prefHeight="-1.0" prefViewportHeight="402.0" prefViewportWidth="315.0" prefWidth="-1.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+                              <content>
+                                <ListView fx:id="ranking" onKeyReleased="#rankingKeyPressed" prefWidth="314.0" />
+                              </content>
+                            </ScrollPane>
+                          </children>
+                        </AnchorPane>
+                        <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="523.0" prefWidth="406.0">
+                          <children>
+                            <ScrollPane id="ScrollPane" content="$spelers" fitToHeight="true" fitToWidth="true" prefViewportHeight="678.0" prefViewportWidth="386.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                          </children>
+                        </AnchorPane>
+                        <AnchorPane>
+                          <children>
+                            <ScrollPane id="ScrollPane" content="$paringen" fitToHeight="true" fitToWidth="true" pannable="false" prefHeight="-1.0" prefViewportHeight="402.0" prefViewportWidth="585.0" prefWidth="-1.0" vbarPolicy="AS_NEEDED" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0" />
+                          </children>
+                        </AnchorPane>
+                      </items>
+                    </SplitPane>
+                    <AnchorPane layoutX="1.0" layoutY="499.0" maxHeight="-Infinity" minHeight="97.0" prefHeight="268.0" prefWidth="1023.0" visible="true">
+                      <children>
+                        <HBox id="HBox" alignment="CENTER" layoutX="694.0" layoutY="67.0" spacing="5.0">
+                          <children>
+                            <Button mnemonicParsing="false" onAction="#verwijderParing" text="%toernooiOverzicht.verwijder" />
+                            <CheckBox fx:id="enkelOnafgewerktePartijen" mnemonicParsing="false" onAction="#enkelOnafgewerkte" text="%toernooiOverzicht.enkelBezig" textFill="WHITE" />
+                          </children>
+                        </HBox>
+                        <Button layoutX="11.0" layoutY="28.0" minHeight="34.39990234375" mnemonicParsing="false" onAction="#hoofdscherm" prefHeight="44.0" prefWidth="110.0" text="">
+                          <graphic>
+                            <ImageView id="back.png" fitHeight="47.0" fitWidth="47.0" mouseTransparent="true">
+                              <image>
+                                <Image url="@../img/back.png" preserveRatio="true" smooth="true" />
+                              </image>
+                            </ImageView>
+                          </graphic>
+                        </Button>
+                        <VBox id="VBox" alignment="CENTER" layoutX="410.0" layoutY="-6.0" prefHeight="100.0" spacing="5.0">
+                          <children>
+                            <Button mnemonicParsing="false" onAction="#maakParingen" prefHeight="35.0" prefWidth="148.0" text="%toernooiOverzicht.maakParingen" />
+                            <Button mnemonicParsing="false" onAction="#showOpponentsOfSelectedPlayer" prefHeight="34.9998779296875" prefWidth="149.0" text="%toernooiOverzicht.toonTegenstanders" />
+                          </children>
+                        </VBox>
+                        <VBox id="VBox" alignment="CENTER" layoutX="665.0" layoutY="5.0" spacing="5.0">
+                          <children>
+                            <TextField fx:id="pairingFilter" onKeyReleased="#adjustFilter" prefWidth="354.0" promptText="%pairings.filter" />
+                            <HBox id="HBox" alignment="CENTER" prefWidth="354.0" spacing="5.0">
+                              <children>
+                                <Button id="witwint" mnemonicParsing="false" onAction="#witWint" prefHeight="20.0" prefWidth="70.0" text="1 - 0" />
+                                <Button id="draw" fx:id="remise" mnemonicParsing="false" onAction="#remise" prefHeight="20.0" prefWidth="70.0" text="%toernooiOverzicht.remise" />
+                                <Button fx:id="zwartwint" mnemonicParsing="false" onAction="#zwartWint" prefHeight="20.9998779296875" prefWidth="70.0" text="0 - 1" />
+                              </children>
+                            </HBox>
+                          </children>
+                        </VBox>
+                        <HBox id="HBox" alignment="CENTER" layoutX="148.0" layoutY="30.0" spacing="5.0">
+                          <children>
+                            <Button id="addSpeler" minWidth="42.0" mnemonicParsing="false" onAction="#addSpeler" prefHeight="40.0" prefWidth="45.0" text="">
+                              <graphic>
+                                <ImageView id="addPlayer.png">
+                                  <image>
+                                    <Image url="@../img/addPlayer.png" preserveRatio="true" smooth="true" />
+                                  </image>
+                                </ImageView>
+                              </graphic>
+                            </Button>
+                            <Button id="removeSpeler" minWidth="45.0" mnemonicParsing="false" onAction="#removeSpeler" prefHeight="40.0" prefWidth="45.0" text="">
+                              <graphic>
+                                <ImageView id="removePlayer.png">
+                                  <image>
+                                    <Image url="@../img/removePlayer.png" preserveRatio="true" smooth="true" />
+                                  </image>
+                                </ImageView>
+                              </graphic>
+                            </Button>
+                            <Button minHeight="31.0" minWidth="30.0" mnemonicParsing="false" onAction="#export" prefHeight="40.0" prefWidth="45.0" text="">
+                              <graphic>
+                                <ImageView id="export_to_file.png" fitHeight="32.0" fitWidth="32.0">
+                                  <image>
+                                    <Image url="@../img/export_to_file.png" preserveRatio="true" smooth="true" />
+                                  </image>
+                                </ImageView>
+                              </graphic>
+                            </Button>
+                          </children>
+                        </HBox>
+                        <HBox id="HBox" alignment="CENTER" layoutX="572.0" layoutY="19.0" prefHeight="18.0" prefWidth="20.0" spacing="5.0">
+                          <children>
+                            <Button minHeight="17.0" minWidth="20.0" mnemonicParsing="false" onAction="#undoLastPairing" prefHeight="18.0" prefWidth="20.0" text="">
+                              <graphic>
+                                <ImageView id="undo.png" fitHeight="10.0" fitWidth="11.0">
+                                  <image>
+                                    <Image url="@../img/undo.png" preserveRatio="true" smooth="true" />
+                                  </image>
+                                </ImageView>
+                              </graphic>
+                            </Button>
+                          </children>
+                        </HBox>
+                      </children>
+                    </AnchorPane>
+                  </children>
+                </AnchorPane>
+              </items>
+            </SplitPane>
+          </children>
+        </AnchorPane>
+      </content>
+    </ScrollPane>
+  </children>
+</AnchorPane>
