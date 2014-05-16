@@ -1,0 +1,22 @@
+This software is a gift to the chess community.
+It is free now and shall always be free.
+Any software derivates from this source should always be free.
+
+This code has been released as open source so that people can help
+to contribute if they wish.
+Commercial use is forbidden.
+
+Furthermore, this software is Belgian Beer licensed.
+Should the user of the product meet the author and consider the software useful, 
+he is encouraged to buy the author a beer in return. Preferably a nice Belgian
+trappist!
+
+Enjoy the software, have fun with it, and good luck in your chess!
+
+Mark Dechamps
+
+Kortrijk 16/05/2014
+
+mark.dechamps@gmail.com
+
+
